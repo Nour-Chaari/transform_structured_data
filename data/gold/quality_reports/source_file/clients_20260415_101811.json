@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "source_type": "source_file",
+    "db_name": "",
+    "table_name": "clients",
+    "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\clients\\processed_20260415_101507",
+    "silver_ts": "20260415_101509",
+    "silver_row_count": 201,
+    "_silver_group_key": "source_file__clients",
+    "_reason": "NOUVEAU"
+  },
+  "metrics": {
+    "table": "clients",
+    "source_type": "source_file",
+    "db_name": "",
+    "timestamp": "2026-04-15T10:18:11.738212",
+    "rows": {
+      "total": 201,
+      "valid": 170,
+      "quarantined": 31,
+      "validity_rate": 84.58,
+      "quarantine_rate": 15.42
+    },
+    "completeness": {
+      "by_column": {
+        "customer_id": 99.5,
+        "CustomerName": 90.05,
+        "gender": 99.5,
+        "date_of_birth": 91.54,
+        "phone": 55.72,
+        "email": 87.06,
+        "location": 88.06,
+        "account_balance": 91.54,
+        "account_type": 99.5,
+        "kyc_status": 92.54,
+        "created_at": 91.04
+      },
+      "average": 89.64
+    },
+    "violations": {
+      "by_rule": {
+        "GEN-008": 60,
+        "GEN-001": 5,
+        "GEN-003": 7
+      },
+      "by_domain": {
+        "general": 72
+      },
+      "by_severity": {
+        "CRITIQUE": 67,
+        "IMPORTANT": 5,
+        "AVERTISSEMENT": 0
+      }
+    },
+    "precision_recall": {
+      "available": false,
+      "note": "Colonne _ground_truth absente"
+    },
+    "alerts": [
+      {
+        "level": "WARNING",
+        "message": "Taux quarantaine élevé : 15.42%"
+      }
+    ]
+  }
+}

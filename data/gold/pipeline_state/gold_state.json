@@ -1,0 +1,71 @@
+{
+  "last_run": "2026-04-15T10:18:19.044055",
+  "tables": {
+    "source_file||clients": {
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\clients\\processed_20260415_101507",
+      "silver_ts": "20260415_101509",
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\clients\\processed_20260415_101811\\data.parquet",
+      "gold_ts": "20260415_101758",
+      "row_count_valid": 170,
+      "row_count_quarantine": 31,
+      "validity_rate": 84.58,
+      "completeness": 89.64,
+      "processed_at": "2026-04-15T10:18:19.039519"
+    },
+    "source_file||comptes_epargne": {
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\comptes_epargne\\processed_20260415_101509",
+      "silver_ts": "20260415_101511",
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\comptes_epargne\\processed_20260415_101813\\data.parquet",
+      "gold_ts": "20260415_101758",
+      "row_count_valid": 1,
+      "row_count_quarantine": 195,
+      "validity_rate": 0.51,
+      "completeness": 86.74,
+      "processed_at": "2026-04-15T10:18:19.039519"
+    },
+    "source_file||contracts": {
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\contracts\\processed_20260415_101511",
+      "silver_ts": "20260415_101513",
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\contracts\\processed_20260415_101815\\data.parquet",
+      "gold_ts": "20260415_101758",
+      "row_count_valid": 10000,
+      "row_count_quarantine": 0,
+      "validity_rate": 100.0,
+      "completeness": 90.44,
+      "processed_at": "2026-04-15T10:18:19.039519"
+    },
+    "source_file||credits_islamiques": {
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\credits_islamiques\\processed_20260415_101513",
+      "silver_ts": "20260415_101534",
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\credits_islamiques\\processed_20260415_101816\\data.parquet",
+      "gold_ts": "20260415_101758",
+      "row_count_valid": 8,
+      "row_count_quarantine": 142,
+      "validity_rate": 5.33,
+      "completeness": 90.28,
+      "processed_at": "2026-04-15T10:18:19.039519"
+    },
+    "source_file||marche_sukuk": {
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\marche_sukuk\\processed_20260415_101534",
+      "silver_ts": "20260415_101555",
+      "gold_parquet_path": "",
+      "gold_ts": "20260415_101758",
+      "row_count_valid": 0,
+      "row_count_quarantine": 250,
+      "validity_rate": 0.0,
+      "completeness": 86.9,
+      "processed_at": "2026-04-15T10:18:19.039519"
+    },
+    "source_file||transactions": {
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\transactions\\processed_20260415_101555",
+      "silver_ts": "20260415_101614",
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\transactions\\processed_20260415_101818\\data.parquet",
+      "gold_ts": "20260415_101758",
+      "row_count_valid": 119,
+      "row_count_quarantine": 181,
+      "validity_rate": 39.67,
+      "completeness": 86.0,
+      "processed_at": "2026-04-15T10:18:19.039519"
+    }
+  }
+}

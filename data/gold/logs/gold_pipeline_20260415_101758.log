@@ -1,0 +1,225 @@
+2026-04-15 11:17:58  INFO      Gold logs → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\logs\gold_pipeline_20260415_101758.log
+2026-04-15 11:17:59  INFO      ╔══════════════════════════════════════════╗
+2026-04-15 11:17:59  INFO      ║  GOLD PIPELINE v7 LOCAL  —  démarrage    ║
+2026-04-15 11:17:59  INFO      ╚══════════════════════════════════════════╝
+2026-04-15 11:17:59  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver
+2026-04-15 11:17:59  INFO        Gold   : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold
+2026-04-15 11:17:59  INFO        Python : 3.11.9 / C:\Users\chaar\OneDrive\Bureau\transform_structured_data\.venv311\Scripts\python.exe
+2026-04-15 11:17:59  INFO        pyarrow : True  |  Groq : True  |  Prometheus : True
+2026-04-15 11:17:59  INFO      [Prometheus] Serveur HTTP métriques → http://localhost:8000/metrics
+2026-04-15 11:18:05  INFO      Spark créé : 4.1.1
+2026-04-15 11:18:05  INFO      [INC-G-1] Lecture de l'état Silver (6 groupes)
+2026-04-15 11:18:05  INFO      [INC-G-1] Tables Silver : 6 total | 6 à traiter | 0 ignorées (inchangées)
+2026-04-15 11:18:05  INFO        [NOUVEAU] source_file||clients → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\clients\processed_20260415_101507
+2026-04-15 11:18:05  INFO        [NOUVEAU] source_file||comptes_epargne → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\comptes_epargne\processed_20260415_101509
+2026-04-15 11:18:05  INFO        [NOUVEAU] source_file||contracts → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\contracts\processed_20260415_101511
+2026-04-15 11:18:05  INFO        [NOUVEAU] source_file||credits_islamiques → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\credits_islamiques\processed_20260415_101513
+2026-04-15 11:18:05  INFO        [NOUVEAU] source_file||marche_sukuk → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\marche_sukuk\processed_20260415_101534
+2026-04-15 11:18:05  INFO        [NOUVEAU] source_file||transactions → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\transactions\processed_20260415_101555
+2026-04-15 11:18:05  INFO      
+2026-04-15 11:18:05  INFO      ╔══════════════════════════════════════════════════════════════╗
+2026-04-15 11:18:05  INFO      ║  TABLE : source_file/clients                                  ║
+2026-04-15 11:18:05  INFO      ╚══════════════════════════════════════════════════════════════╝
+2026-04-15 11:18:05  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\clients\processed_20260415_101507
+2026-04-15 11:18:05  INFO        [ÉTAPE 1/5] Lecture Parquet Spark…
+2026-04-15 11:18:08  INFO        [ÉTAPE 1/5] ✓  201 lignes × 15 colonnes
+2026-04-15 11:18:09  INFO        [ÉTAPE 2/5] Analyse Groq (GOLD-1)…
+2026-04-15 11:18:09  INFO        [GOLD-1] Analyse Groq 'clients'…
+2026-04-15 11:18:10  INFO        [GOLD-1] 'clients' → type=client, 11 règles : GEN-001, GEN-002, GEN-003, GEN-004, GEN-005, GEN-006, GEN-008, GEN-009, GEN-010, BNK-002, BNK-009
+2026-04-15 11:18:10  INFO        [ÉTAPE 2/5] ✓  Type : client
+2026-04-15 11:18:10  INFO        [ÉTAPE 3/5] Application des règles métier…
+2026-04-15 11:18:11  INFO        [FIX-8] 80 genres corrigés en batch
+2026-04-15 11:18:11  INFO        [GOLD-2] 11 règles actives : BNK-002, BNK-009, GEN-001, GEN-002, GEN-003, GEN-004, GEN-005, GEN-006, GEN-008, GEN-009, GEN-010
+2026-04-15 11:18:11  INFO        [GOLD-2] Violations par règle :
+2026-04-15 11:18:11  INFO          GEN-008       60  — Nom non vide
+2026-04-15 11:18:11  INFO          GEN-003        7  — Âge minimum
+2026-04-15 11:18:11  INFO          GEN-001        5  — Email valide
+2026-04-15 11:18:11  INFO        [ÉTAPE 3/5] ✓  Valides : 170  |  Quarantaine : 31  (15.4%)
+2026-04-15 11:18:11  INFO        [ÉTAPE 4/5] Métriques de qualité…
+2026-04-15 11:18:11  INFO        [Métriques] total=201  valides=170  quarantaine=31  (84.6%)
+2026-04-15 11:18:11  INFO        [Métriques] Complétude : 89.6%  |  CRITIQUE=67  IMPORTANT=5  AVERT=0
+2026-04-15 11:18:11  WARNING     [ALERTE][WARNING] Taux quarantaine élevé : 15.42%
+2026-04-15 11:18:11  INFO        [Prometheus] Gateway inaccessible → .prom + HTTP
+2026-04-15 11:18:11  INFO        [Prometheus] Métriques exportées → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\metrics_export\clients_20260415_101758.prom
+2026-04-15 11:18:11  INFO        [ÉTAPE 5/5] Écriture Gold (pyarrow)…
+2026-04-15 11:18:11  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\clients\processed_20260415_101811\data.parquet (170 lignes)
+2026-04-15 11:18:11  INFO        [Écriture] Sample → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\clients\processed_20260415_101811_sample.json
+2026-04-15 11:18:11  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quarantine\source_file\clients\quarantine_20260415_101811\quarantine.parquet (31 lignes)
+2026-04-15 11:18:11  INFO        [Écriture] Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\source_file\clients_20260415_101811.json
+2026-04-15 11:18:11  INFO        ┌─ RÉSUMÉ ────────────────────────────────────────────────
+2026-04-15 11:18:11  INFO        │  valid=170       quarantaine=31      durée=6.13s
+2026-04-15 11:18:11  INFO        │  Complétude : 89.6%
+2026-04-15 11:18:11  INFO        └────────────────────────────────────────────────────────
+2026-04-15 11:18:11  INFO      
+2026-04-15 11:18:11  INFO      ╔══════════════════════════════════════════════════════════════╗
+2026-04-15 11:18:11  INFO      ║  TABLE : source_file/comptes_epargne                          ║
+2026-04-15 11:18:11  INFO      ╚══════════════════════════════════════════════════════════════╝
+2026-04-15 11:18:11  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\comptes_epargne\processed_20260415_101509
+2026-04-15 11:18:11  INFO        [ÉTAPE 1/5] Lecture Parquet Spark…
+2026-04-15 11:18:12  INFO        [ÉTAPE 1/5] ✓  196 lignes × 16 colonnes
+2026-04-15 11:18:12  INFO        [ÉTAPE 2/5] Analyse Groq (GOLD-1)…
+2026-04-15 11:18:12  INFO        [GOLD-1] Analyse Groq 'comptes_epargne'…
+2026-04-15 11:18:13  INFO        [GOLD-1] 'comptes_epargne' → type=account, 11 règles : BNK-001, BNK-002, BNK-005, BNK-009, BNK-010, BNK-011, BNK-012, GEN-002, GEN-009, GEN-009, ISL-001
+2026-04-15 11:18:13  INFO        [ÉTAPE 2/5] ✓  Type : account
+2026-04-15 11:18:13  INFO        [ÉTAPE 3/5] Application des règles métier…
+2026-04-15 11:18:13  INFO        [FIX-7] 15 doublons de référence
+2026-04-15 11:18:13  INFO        [GOLD-2] 10 règles actives : BNK-001, BNK-002, BNK-005, BNK-009, BNK-010, BNK-011, BNK-012, GEN-002, GEN-009, ISL-001
+2026-04-15 11:18:13  INFO        [GOLD-2] Violations par règle :
+2026-04-15 11:18:13  INFO          BNK-001      195  — IBAN valide
+2026-04-15 11:18:13  INFO          BNK-011       66  — Statut compte valide
+2026-04-15 11:18:13  INFO          ISL-001       20  — Riba compte islamique
+2026-04-15 11:18:13  INFO          BNK-012       15  — Référence unique
+2026-04-15 11:18:13  INFO        [ÉTAPE 3/5] ✓  Valides : 1  |  Quarantaine : 195  (99.5%)
+2026-04-15 11:18:13  INFO        [ÉTAPE 4/5] Métriques de qualité…
+2026-04-15 11:18:13  INFO        [Métriques] total=196  valides=1  quarantaine=195  (0.5%)
+2026-04-15 11:18:13  INFO        [Métriques] Complétude : 86.7%  |  CRITIQUE=35  IMPORTANT=261  AVERT=0
+2026-04-15 11:18:13  WARNING     [ALERTE][CRITICAL] Taux quarantaine critique : 99.49%
+2026-04-15 11:18:13  INFO        [Prometheus] Gateway inaccessible → .prom + HTTP
+2026-04-15 11:18:13  INFO        [Prometheus] Métriques exportées → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\metrics_export\comptes_epargne_20260415_101758.prom
+2026-04-15 11:18:13  INFO        [ÉTAPE 5/5] Écriture Gold (pyarrow)…
+2026-04-15 11:18:13  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\comptes_epargne\processed_20260415_101813\data.parquet (1 lignes)
+2026-04-15 11:18:13  INFO        [Écriture] Sample → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\comptes_epargne\processed_20260415_101813_sample.json
+2026-04-15 11:18:13  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quarantine\source_file\comptes_epargne\quarantine_20260415_101813\quarantine.parquet (195 lignes)
+2026-04-15 11:18:13  INFO        [Écriture] Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\source_file\comptes_epargne_20260415_101813.json
+2026-04-15 11:18:13  INFO        ┌─ RÉSUMÉ ────────────────────────────────────────────────
+2026-04-15 11:18:13  INFO        │  valid=1         quarantaine=195     durée=1.72s
+2026-04-15 11:18:13  INFO        │  Complétude : 86.7%
+2026-04-15 11:18:13  INFO        └────────────────────────────────────────────────────────
+2026-04-15 11:18:13  INFO      
+2026-04-15 11:18:13  INFO      ╔══════════════════════════════════════════════════════════════╗
+2026-04-15 11:18:13  INFO      ║  TABLE : source_file/contracts                                ║
+2026-04-15 11:18:13  INFO      ╚══════════════════════════════════════════════════════════════╝
+2026-04-15 11:18:13  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\contracts\processed_20260415_101511
+2026-04-15 11:18:13  INFO        [ÉTAPE 1/5] Lecture Parquet Spark…
+2026-04-15 11:18:13  INFO        [ÉTAPE 1/5] ✓  10000 lignes × 11 colonnes
+2026-04-15 11:18:13  INFO        [ÉTAPE 2/5] Analyse Groq (GOLD-1)…
+2026-04-15 11:18:13  INFO        [GOLD-1] Analyse Groq 'contracts'…
+2026-04-15 11:18:14  INFO        [GOLD-1] 'contracts' → type=credit, 8 règles : BNK-003, BNK-003, BNK-002, BNK-002, BNK-010, BNK-010, ISL-002, ISL-002
+2026-04-15 11:18:14  INFO        [ÉTAPE 2/5] ✓  Type : credit
+2026-04-15 11:18:14  INFO        [ÉTAPE 3/5] Application des règles métier…
+2026-04-15 11:18:14  INFO        [GOLD-2] 4 règles actives : BNK-002, BNK-003, BNK-010, ISL-002
+2026-04-15 11:18:15  INFO        [GOLD-2] Aucune violation détectée ✓
+2026-04-15 11:18:15  INFO        [ÉTAPE 3/5] ✓  Valides : 10000  |  Quarantaine : 0  (0.0%)
+2026-04-15 11:18:15  INFO        [ÉTAPE 4/5] Métriques de qualité…
+2026-04-15 11:18:15  INFO        [Métriques] total=10000  valides=10000  quarantaine=0  (100.0%)
+2026-04-15 11:18:15  INFO        [Métriques] Complétude : 90.4%  |  CRITIQUE=0  IMPORTANT=0  AVERT=0
+2026-04-15 11:18:15  INFO        [Prometheus] Gateway inaccessible → .prom + HTTP
+2026-04-15 11:18:15  INFO        [Prometheus] Métriques exportées → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\metrics_export\contracts_20260415_101758.prom
+2026-04-15 11:18:15  INFO        [ÉTAPE 5/5] Écriture Gold (pyarrow)…
+2026-04-15 11:18:15  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\contracts\processed_20260415_101815\data.parquet (10000 lignes)
+2026-04-15 11:18:15  INFO        [Écriture] Sample → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\contracts\processed_20260415_101815_sample.json
+2026-04-15 11:18:15  INFO        [Écriture] Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\source_file\contracts_20260415_101815.json
+2026-04-15 11:18:15  INFO        ┌─ RÉSUMÉ ────────────────────────────────────────────────
+2026-04-15 11:18:15  INFO        │  valid=10000     quarantaine=0       durée=1.59s
+2026-04-15 11:18:15  INFO        │  Complétude : 90.4%
+2026-04-15 11:18:15  INFO        └────────────────────────────────────────────────────────
+2026-04-15 11:18:15  INFO      
+2026-04-15 11:18:15  INFO      ╔══════════════════════════════════════════════════════════════╗
+2026-04-15 11:18:15  INFO      ║  TABLE : source_file/credits_islamiques                       ║
+2026-04-15 11:18:15  INFO      ╚══════════════════════════════════════════════════════════════╝
+2026-04-15 11:18:15  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\credits_islamiques\processed_20260415_101513
+2026-04-15 11:18:15  INFO        [ÉTAPE 1/5] Lecture Parquet Spark…
+2026-04-15 11:18:15  INFO        [ÉTAPE 1/5] ✓  150 lignes × 16 colonnes
+2026-04-15 11:18:15  INFO        [ÉTAPE 2/5] Analyse Groq (GOLD-1)…
+2026-04-15 11:18:15  INFO        [GOLD-1] Analyse Groq 'credits_islamiques'…
+2026-04-15 11:18:16  INFO        [GOLD-1] 'credits_islamiques' → type=credit, 7 règles : BNK-003, BNK-005, BNK-007, BNK-008, BNK-009, BNK-010, ISL-002
+2026-04-15 11:18:16  INFO        [ÉTAPE 2/5] ✓  Type : credit
+2026-04-15 11:18:16  INFO        [ÉTAPE 3/5] Application des règles métier…
+2026-04-15 11:18:16  INFO        [GOLD-2] 7 règles actives : BNK-003, BNK-005, BNK-007, BNK-008, BNK-009, BNK-010, ISL-002
+2026-04-15 11:18:16  INFO        [GOLD-2] Violations par règle :
+2026-04-15 11:18:16  INFO          BNK-008      125  — Date fin > date début
+2026-04-15 11:18:16  INFO          BNK-007       25  — Durée crédit valide
+2026-04-15 11:18:16  INFO          ISL-002       22  — Riba crédit islamique
+2026-04-15 11:18:16  INFO        [ÉTAPE 3/5] ✓  Valides : 8  |  Quarantaine : 142  (94.7%)
+2026-04-15 11:18:16  INFO        [ÉTAPE 4/5] Métriques de qualité…
+2026-04-15 11:18:16  INFO        [Métriques] total=150  valides=8  quarantaine=142  (5.3%)
+2026-04-15 11:18:16  INFO        [Métriques] Complétude : 90.3%  |  CRITIQUE=147  IMPORTANT=25  AVERT=0
+2026-04-15 11:18:16  WARNING     [ALERTE][CRITICAL] Taux quarantaine critique : 94.67%
+2026-04-15 11:18:16  INFO        [Prometheus] Gateway inaccessible → .prom + HTTP
+2026-04-15 11:18:16  INFO        [Prometheus] Métriques exportées → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\metrics_export\credits_islamiques_20260415_101758.prom
+2026-04-15 11:18:16  INFO        [ÉTAPE 5/5] Écriture Gold (pyarrow)…
+2026-04-15 11:18:16  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\credits_islamiques\processed_20260415_101816\data.parquet (8 lignes)
+2026-04-15 11:18:16  INFO        [Écriture] Sample → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\credits_islamiques\processed_20260415_101816_sample.json
+2026-04-15 11:18:16  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quarantine\source_file\credits_islamiques\quarantine_20260415_101816\quarantine.parquet (142 lignes)
+2026-04-15 11:18:16  INFO        [Écriture] Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\source_file\credits_islamiques_20260415_101816.json
+2026-04-15 11:18:16  INFO        ┌─ RÉSUMÉ ────────────────────────────────────────────────
+2026-04-15 11:18:16  INFO        │  valid=8         quarantaine=142     durée=1.36s
+2026-04-15 11:18:16  INFO        │  Complétude : 90.3%
+2026-04-15 11:18:16  INFO        └────────────────────────────────────────────────────────
+2026-04-15 11:18:16  INFO      
+2026-04-15 11:18:16  INFO      ╔══════════════════════════════════════════════════════════════╗
+2026-04-15 11:18:16  INFO      ║  TABLE : source_file/marche_sukuk                             ║
+2026-04-15 11:18:16  INFO      ╚══════════════════════════════════════════════════════════════╝
+2026-04-15 11:18:16  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\marche_sukuk\processed_20260415_101534
+2026-04-15 11:18:16  INFO        [ÉTAPE 1/5] Lecture Parquet Spark…
+2026-04-15 11:18:16  INFO        [ÉTAPE 1/5] ✓  250 lignes × 16 colonnes
+2026-04-15 11:18:16  INFO        [ÉTAPE 2/5] Analyse Groq (GOLD-1)…
+2026-04-15 11:18:16  INFO        [GOLD-1] Analyse Groq 'marche_sukuk'…
+2026-04-15 11:18:17  INFO        [GOLD-1] 'marche_sukuk' → type=market_data, 4 règles : GEN-007, GEN-008, GEN-009, GEN-009
+2026-04-15 11:18:17  INFO        [ÉTAPE 2/5] ✓  Type : market_data
+2026-04-15 11:18:17  INFO        [ÉTAPE 3/5] Application des règles métier…
+2026-04-15 11:18:17  INFO        [GOLD-2] 3 règles actives : GEN-007, GEN-008, GEN-009
+2026-04-15 11:18:17  INFO        [GOLD-2] Violations par règle :
+2026-04-15 11:18:17  INFO          GEN-007      215  — Code pays valide
+2026-04-15 11:18:17  INFO          GEN-008      105  — Nom non vide
+2026-04-15 11:18:17  INFO        [ÉTAPE 3/5] ✓  Valides : 0  |  Quarantaine : 250  (100.0%)
+2026-04-15 11:18:17  INFO        [ÉTAPE 4/5] Métriques de qualité…
+2026-04-15 11:18:17  INFO        [Métriques] total=250  valides=0  quarantaine=250  (0.0%)
+2026-04-15 11:18:17  INFO        [Métriques] Complétude : 86.9%  |  CRITIQUE=105  IMPORTANT=215  AVERT=0
+2026-04-15 11:18:17  WARNING     [ALERTE][CRITICAL] Taux quarantaine critique : 100.0%
+2026-04-15 11:18:17  INFO        [Prometheus] Gateway inaccessible → .prom + HTTP
+2026-04-15 11:18:17  INFO        [Prometheus] Métriques exportées → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\metrics_export\marche_sukuk_20260415_101758.prom
+2026-04-15 11:18:17  INFO        [ÉTAPE 5/5] Écriture Gold (pyarrow)…
+2026-04-15 11:18:17  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quarantine\source_file\marche_sukuk\quarantine_20260415_101817\quarantine.parquet (250 lignes)
+2026-04-15 11:18:17  INFO        [Écriture] Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\source_file\marche_sukuk_20260415_101817.json
+2026-04-15 11:18:17  INFO        ┌─ RÉSUMÉ ────────────────────────────────────────────────
+2026-04-15 11:18:17  INFO        │  valid=0         quarantaine=250     durée=1.17s
+2026-04-15 11:18:17  INFO        │  Complétude : 86.9%
+2026-04-15 11:18:17  INFO        └────────────────────────────────────────────────────────
+2026-04-15 11:18:17  INFO      
+2026-04-15 11:18:17  INFO      ╔══════════════════════════════════════════════════════════════╗
+2026-04-15 11:18:17  INFO      ║  TABLE : source_file/transactions                             ║
+2026-04-15 11:18:17  INFO      ╚══════════════════════════════════════════════════════════════╝
+2026-04-15 11:18:17  INFO        Silver : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\transactions\processed_20260415_101555
+2026-04-15 11:18:17  INFO        [ÉTAPE 1/5] Lecture Parquet Spark…
+2026-04-15 11:18:17  INFO        [ÉTAPE 1/5] ✓  300 lignes × 15 colonnes
+2026-04-15 11:18:17  INFO        [ÉTAPE 2/5] Analyse Groq (GOLD-1)…
+2026-04-15 11:18:17  INFO        [GOLD-1] Analyse Groq 'transactions'…
+2026-04-15 11:18:18  INFO        [GOLD-1] 'transactions' → type=transaction, 5 règles : BNK-001, BNK-003, BNK-009, BNK-010, GEN-009
+2026-04-15 11:18:18  INFO        [ÉTAPE 2/5] ✓  Type : transaction
+2026-04-15 11:18:18  INFO        [ÉTAPE 3/5] Application des règles métier…
+2026-04-15 11:18:18  INFO        [GOLD-2] 5 règles actives : BNK-001, BNK-003, BNK-009, BNK-010, GEN-009
+2026-04-15 11:18:18  INFO        [GOLD-2] Violations par règle :
+2026-04-15 11:18:18  INFO          BNK-001      180  — IBAN valide
+2026-04-15 11:18:18  INFO          BNK-003        4  — Montant tx positif
+2026-04-15 11:18:18  INFO        [ÉTAPE 3/5] ✓  Valides : 119  |  Quarantaine : 181  (60.3%)
+2026-04-15 11:18:18  INFO        [ÉTAPE 4/5] Métriques de qualité…
+2026-04-15 11:18:18  INFO        [Métriques] total=300  valides=119  quarantaine=181  (39.7%)
+2026-04-15 11:18:18  INFO        [Métriques] Complétude : 86.0%  |  CRITIQUE=4  IMPORTANT=180  AVERT=0
+2026-04-15 11:18:18  WARNING     [ALERTE][CRITICAL] Taux quarantaine critique : 60.33%
+2026-04-15 11:18:18  INFO        [Prometheus] Gateway inaccessible → .prom + HTTP
+2026-04-15 11:18:18  INFO        [Prometheus] Métriques exportées → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\metrics_export\transactions_20260415_101758.prom
+2026-04-15 11:18:18  INFO        [ÉTAPE 5/5] Écriture Gold (pyarrow)…
+2026-04-15 11:18:18  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\transactions\processed_20260415_101818\data.parquet (119 lignes)
+2026-04-15 11:18:19  INFO        [Écriture] Sample → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\validated\source_file\transactions\processed_20260415_101818_sample.json
+2026-04-15 11:18:19  INFO        [pyarrow] → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quarantine\source_file\transactions\quarantine_20260415_101818\quarantine.parquet (181 lignes)
+2026-04-15 11:18:19  INFO        [Écriture] Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\source_file\transactions_20260415_101818.json
+2026-04-15 11:18:19  INFO        ┌─ RÉSUMÉ ────────────────────────────────────────────────
+2026-04-15 11:18:19  INFO        │  valid=119       quarantaine=181     durée=1.39s
+2026-04-15 11:18:19  INFO        │  Complétude : 86.0%
+2026-04-15 11:18:19  INFO        └────────────────────────────────────────────────────────
+2026-04-15 11:18:19  INFO      
+2026-04-15 11:18:19  INFO      ╔══════════════════════════════════════════════════════╗
+2026-04-15 11:18:19  INFO      ║             RAPPORT GLOBAL — GOLD v7                ║
+2026-04-15 11:18:19  INFO      ╠══════════════════════════════════════════════════════╣
+2026-04-15 11:18:19  INFO      ║  Traitées  : 6      Ignorées (inchang.) : 0         ║
+2026-04-15 11:18:19  INFO      ║  Lignes valides   : 10298                             ║
+2026-04-15 11:18:19  INFO      ║  Lignes quarant.  : 799                               ║
+2026-04-15 11:18:19  INFO      ║  Taux de validité : 92.8  %                         ║
+2026-04-15 11:18:19  INFO      ╚══════════════════════════════════════════════════════╝
+2026-04-15 11:18:19  INFO      Rapport global → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\quality_reports\_global_report_20260415_101758.json
+2026-04-15 11:18:19  INFO      [GoldState] État sauvegardé → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\gold\pipeline_state\gold_state.json
+2026-04-15 11:18:19  INFO      Temps total : 20.1 s
+2026-04-15 11:18:19  INFO      [Prometheus] Métriques finales disponibles → http://localhost:8000/metrics
+2026-04-15 11:18:19  INFO      [Prometheus] Serveur HTTP arrêté.
+2026-04-15 11:18:19  INFO      Spark arrêté.

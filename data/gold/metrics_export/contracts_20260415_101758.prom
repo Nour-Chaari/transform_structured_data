@@ -1,0 +1,12 @@
+# TYPE gold_rows_valid_total gauge
+gold_rows_valid_total{table="contracts",db="",source_type="source_file"} 10000
+# TYPE gold_rows_quarantine_total gauge
+gold_rows_quarantine_total{table="contracts",db="",source_type="source_file"} 0
+# TYPE gold_validity_rate_percent gauge
+gold_validity_rate_percent{table="contracts",db="",source_type="source_file"} 100.0
+# TYPE gold_quarantine_rate_percent gauge
+gold_quarantine_rate_percent{table="contracts",db="",source_type="source_file"} 0.0
+# TYPE gold_completeness_avg_percent gauge
+gold_completeness_avg_percent{table="contracts",db="",source_type="source_file"} 90.44
+gold_violations_critique{table="contracts",db="",source_type="source_file"} 0
+gold_violations_important{table="contracts",db="",source_type="source_file"} 0

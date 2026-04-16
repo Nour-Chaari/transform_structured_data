@@ -1,0 +1,14 @@
+# TYPE gold_rows_valid_total gauge
+gold_rows_valid_total{table="comptes_epargne",db="",source_type="source_file"} 1
+# TYPE gold_rows_quarantine_total gauge
+gold_rows_quarantine_total{table="comptes_epargne",db="",source_type="source_file"} 195
+# TYPE gold_validity_rate_percent gauge
+gold_validity_rate_percent{table="comptes_epargne",db="",source_type="source_file"} 0.51
+# TYPE gold_quarantine_rate_percent gauge
+gold_quarantine_rate_percent{table="comptes_epargne",db="",source_type="source_file"} 99.49
+# TYPE gold_completeness_avg_percent gauge
+gold_completeness_avg_percent{table="comptes_epargne",db="",source_type="source_file"} 86.74
+gold_violations_critique{table="comptes_epargne",db="",source_type="source_file"} 35
+gold_violations_important{table="comptes_epargne",db="",source_type="source_file"} 261
+gold_violations_domain_banking{table="comptes_epargne",db="",source_type="source_file"} 276
+gold_violations_domain_islamic{table="comptes_epargne",db="",source_type="source_file"} 20

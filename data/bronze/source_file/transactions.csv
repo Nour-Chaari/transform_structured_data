@@ -1,0 +1,338 @@
+TransactionID,CustomerID,TransactionDate,TransactionAmount__INR,transaction_type,channel,currency,iban,status,notes,timestamp_ms
+ TXN1146 ,C01005,19-04-1999,475835.90 TND,retrait,MOBILE,XAU,TN5914702326744056,En_Attente,Transaction 146 — produit islamique,NA
+ TXN1234 , C1186 ,"January 24, 2014",478700.090000,TRANSFER,MOBILE,Tnd,nd,En_Attente,Transaction 234 — produit islamique,1627410663000
+TXN1208,C1048,25/02/17,$53972.10,débit,app,dinars,IBAN_INVALIDE,,Transaction 208 — produit islamique,1763513835
+TXN1014,C1047,19-08-1985,168622.38 TND,virement,MOBILE,Tnd,ND,En_Attente,Transaction 14 — produit islamique,#N/A
+TXN01037,C1054,07/11/1993,"58,746.37",ijara_loyer,internet,?,,refusé,Transaction 37 — produit islamique,1647436836
+ TXN1258 ,1009,"February 29, 2020",251714.270000,retrait,swift,dinars,IBAN_INVALIDE,REFUSED,Transaction 258 — produit islamique,1750980689000
+TXN1140,C1166,NONE,  353620.74  ,virement,,TND,TN59 3235 31139813 65,1,ND,#NA
+TXN1264,C1142,23/08/2006,185169.46,débit,agence,Tnd,MISSING,validé,Transaction 264 — produit islamique,1646137800000
+TXN1228,c1171,28/03/2013,106666.25,depot,,dinars,IBAN_INVALIDE,1,Transaction 228 — produit islamique,1662123322000
+TXN1044,C1015,not available,  333410.69  ,Virement,agence,Tnd,na,validé,Transaction 44 — produit islamique,UNKNOWN
+ TXN1186 , C1186 ,"November 20, 1990",367064.900000,depot,app,XAU,TN5942143617383381,,Transaction 186 — produit islamique,1640534640000
+TXN1183,C1004,20150511,TND 313380.80,VIREMENT,GUICHET,tnd,IBAN_INVALIDE,pending,Transaction 183 — produit islamique,1715258441000
+TXN1254,C1103,20-11-2011,318847.59 TND,Virement,ATM,Tnd,missing,VALIDÉ,Transaction 254 — produit islamique,nr
+TXN1040,C01141,14/03/11,$360033.97,débit,GUICHET,TND,TN59 6126 65556767 15,pending,None,1723331348
+TXN1076,1137,22/05/93,$163059.86,retrait,app,XAU,TN5991252460014978,,Transaction 76 — produit islamique,1745406625
+TXN1262,C01133,1990/04/15,not available,TRANSFER,N/A,EUR,,0,Transaction 262 — produit islamique,1720854518
+txn1003,C1188,20170818,TND 352917.04,dépôt,MOBILE,tnd,IBAN_INVALIDE,En_Attente,Transaction 3 — produit islamique,1720338314000
+ TXN1162 ,C01005,"February 27, 2000",396846.660000,murabaha_paiement,,EUR,,1,Transaction 162 — produit islamique,1700741198000
+1297, C1178 ,  2009-03-11  ,295456.38,dépôt,agence,?,,validé,Transaction 297 — produit islamique,1624602747000
+TXN01093,1025,  2013-02-02  ,418367.42,ijara_loyer,swift,tnd,IBAN_INVALIDE,REFUSED,Transaction 93 — produit islamique,1742646517000
+1177, C1066 ,  2017-07-13  ,279559.92,ijara_loyer,ATM,?,,VALIDÉ,Transaction 177 — produit islamique,1685900527000
+TXN1150,1169,"January 15, 2013",240216.170000,TRANSFER,GUICHET,TND,TN59 3516 17315517 56,pending,,1720442661000
+TXN1216, C1138 ,14/06/1986,407031.71,retrait,GUICHET,XAU,TN5938708829025545,pending,Transaction 216 — produit islamique,1625166329000
+TXN1272,C1070,#NA,  481532.26  ,retrait,,EUR,,1,Transaction 272 — produit islamique,nil
+TXN1288,C1143,03/01/2010,128931.64,murabaha_paiement,mobile,dinars,IBAN_INVALIDE,en_attente,Transaction 288 — produit islamique,1665464952000
+ TXN1250 ,c1123,2012/02/08,None,débit,,TND,TN59 9460 64471218 55,1,undefined,1731541705
+TXN01173,c1083,1997,328094.19€,DEPOT,,tnd,IBAN_INVALIDE,1,Transaction 173 — produit islamique,n/a
+TXN1286,C1132,2008/12/14,UNKNOWN,retrait,agence,XAU,TN5928925771662518,validé,Transaction 286 — produit islamique,1695456367
+TXN1103,C1152,1988-03,444373,DEPOT,internet,tnd,IBAN_INVALIDE,refusé,Transaction 103 — produit islamique,1679064618
+txn1211,C1087,1998-03,402417,VIREMENT,mobile,USD,TN5948505447986132,en_attente,Transaction 211 — produit islamique,1665200660
+ TXN1050 ,C1071,12-05-2009,329088.81 TND,murabaha_paiement,guichet,TND,TN59 8790 46385762 15,annulé,NA,
+txn1019,C1191,2012-03,207981,DEPOT,,DT,undefined,1,Transaction 19 — produit islamique,1649609230
+txn1131,C1015,1988-12-08,"191569.34,",DEPOT,app,USD,TN5987502181394129,,Transaction 131 — produit islamique,nan
+1241,C1198,09/14/1998,"275,880.75",dépôt,app,USD,TN5972678445669159,,Transaction 241 — produit islamique,1753991534
+ TXN1018 ,C01197,"December 14, 1998",58796.130000,depot,GUICHET,dinars,IBAN_INVALIDE,pending,Transaction 18 — produit islamique,1677334365000
+1265,c1035,07/29/2014,"373,932.32",UNKNOWN,ATM,DINAR,TN59 5157 51158280 83,VALIDÉ,--,1732564632
+TXN1167,C1007,1995-11-08,"244444.49,",UNKNOWN,mobile,?,,en_attente,Transaction 167 — produit islamique,NONE
+TXN1132,c1139,21/01/2020,172082.66,retrait,agence,EUR,,validé,Transaction 132 — produit islamique,1641136016000
+ TXN1122 , C1034 ,27-12-2019,292395.55 TND,TRANSFER,ATM,EUR,,VALIDÉ,Transaction 122 — produit islamique,NULL
+ TXN1210 ,1177,"December 15, 2010",365274.280000,virement,ATM,TND,TN59 8091 88533572 71,VALIDÉ,NULL,1672002787000
+TXN1055,C1182,2020-03,77223,UNKNOWN,agence,DINAR,TN59 5037 19865900 20,validé,NA,1679171448
+TXN1156,1049,30/08/1990,211745.11,Virement,mobile,XAU,TN5933527763708541,en_attente,Transaction 156 — produit islamique,1659121195000
+TXN1110,C1095,11-09-1990,390583.88 TND,débit,agence,TND,TN59 6680 80196591 76,validé,nr,NULL
+TXN1084,1193,13/11/1986,359518.22,virement,GUICHET,Tnd,?,pending,Transaction 84 — produit islamique,1717331776000
+txn1227,C1166,1993-08-21,"256995.96,",dépôt,GUICHET,?,,pending,Transaction 227 — produit islamique,NONE
+ TXN1130 ,C1071,2005/01/03,#NA,depot,N/A,TND,TN59 3831 57505459 37,0,#NA,1710018831
+TXN01293,C1047,2023,62607.45€,UNKNOWN,GUICHET,tnd,IBAN_INVALIDE,pending,Transaction 293 — produit islamique,nd
+TXN1096,1033,19/08/2011,259770.18,débit,,XAU,TN5977105485669675,1,Transaction 96 — produit islamique,1773503233000
+TXN1094,C1176,1990/12/02,N/A,TRANSFER,guichet,Tnd,nan,annulé,Transaction 94 — produit islamique,1750940418
+TXN1060,C1092,16/04/1996,360477.64,depot,swift,TND,TN59 8121 47038975 63,REFUSED,#NA,1723504103000
+TXN1108,C1022,28/06/2004,226740.58,TRANSFER,N/A,dinars,IBAN_INVALIDE,0,Transaction 108 — produit islamique,1761224546000
+ TXN1290 ,C1188,18-01-2005,190597.39 TND,TRANSFER,internet,TND,TN59 6818 53632879 96,refusé,undefined,not available
+1137,c1059,2011,10062.00€,credit,swift,?,,REFUSED,Transaction 137 — produit islamique,
+TXN1220,C1188,19/01/08,$188661.39,TRANSFER,agence,TND,TN59 8353 33813700 97,validé,N/A,1626585374
+TXN1118,C1000,2014/06/27,nr,retrait,,dinars,IBAN_INVALIDE,1,Transaction 118 — produit islamique,1693449420
+TXN1087,C1152,20090303,TND 161894.44,dépôt,app,?,,,Transaction 87 — produit islamique,1697442651000
+TXN1239,C01157,2014-07-31,"346759.72,",VIREMENT,,DT,NA,1,Transaction 239 — produit islamique,#N/A
+TXN1168, C1066 ,06/08/2018,344456.38,virement,MOBILE,dinars,IBAN_INVALIDE,En_Attente,Transaction 168 — produit islamique,1768627495000
+txn1035,C1084,2014-01-04,"461120.83,",RETRAIT,mobile,DINAR,TN59 9683 27997624 59,en_attente,null,MISSING
+txn1123,1137,20010127,TND 103897.35,credit,mobile,tnd,IBAN_INVALIDE,en_attente,Transaction 123 — produit islamique,1651617525000
+txn1259,C1000,2015-06,215805,RETRAIT,guichet,DT,MISSING,annulé,Transaction 259 — produit islamique,1676573740
+TXN1079,c1107,2011-10,287445,ijara_loyer,mobile,DT,nil,en_attente,Transaction 79 — produit islamique,1726133301
+1209, C1034 ,2007,265229.14€,UNKNOWN,agence,DT,missing,validé,Transaction 209 — produit islamique,MISSING
+TXN1096,1033,19/08/2011,259770.18,débit,,XAU,TN5977105485669675,1,Transaction 96 — produit islamique,1773503233000
+TXN1020,1193,--,  41026.97  ,retrait,N/A,TND,TN59 9806 99133246 37,0,missing,ND
+txn1043,1001,2003-07,421288,VIREMENT,app,tnd,IBAN_INVALIDE,,Transaction 43 — produit islamique,1757751175
+TXN1236,1041,NaN,  308480.77  ,débit,swift,XAU,TN5982137632724226,REFUSED,Transaction 236 — produit islamique,nan
+TXN1295,C01021,2014-05,154754,VIREMENT,N/A,DINAR,TN59 9584 21173787 23,0,nr,1699713459
+1145,1105,02/13/2007,"175,680.46",DEPOT,mobile,DINAR,TN59 1788 61799600 66,en_attente,NULL,1647284264
+TXN01269,1049,1986,299797.50€,dépôt,swift,DT,n/a,REFUSED,Transaction 269 — produit islamique,ND
+TXN1172,C01165,21/08/11,$141410.17,depot,GUICHET,EUR,,pending,Transaction 172 — produit islamique,1746977091
+TXN1054,C1174,"April 13, 2011",190098.350000,débit,app,Tnd,NONE,,Transaction 54 — produit islamique,1696705854000
+ TXN1058 ,C01021,2017/07/07,NaN,Virement,MOBILE,dinars,IBAN_INVALIDE,En_Attente,Transaction 58 — produit islamique,1622461721
+ TXN1170 ,1033,15-01-2014,300610.86 TND,Virement,swift,TND,TN59 7709 78891441 12,REFUSED,NaN,N/A
+1073,c1027,05/18/2015,"82,260.61",dépôt,GUICHET,tnd,IBAN_INVALIDE,pending,Transaction 73 — produit islamique,1710521296
+TXN01013, C1034 ,03/06/2023,"234,063.58",UNKNOWN,mobile,tnd,IBAN_INVALIDE,en_attente,Transaction 13 — produit islamique,1745757795
+1105, C1010 ,  1987-09-18  ,-199047.71,RETRAIT,guichet,DINAR,TN59 1273 88834594 18,annulé,not available,1641496872000
+TXN1100, C1098 ,08/10/00,$157320.38,Virement,ATM,TND,TN59 4559 21635070 22,VALIDÉ,NaN,1701648241
+txn1107,C1100,2011-04-23,"381635.74,",ijara_loyer,,?,,1,Transaction 107 — produit islamique,nd
+TXN1292, C1074 ,13/11/16,$302731.95,débit,guichet,EUR,,annulé,Transaction 292 — produit islamique,1703183573
+TXN1080, C1042 ,n/a,  70234.24  ,TRANSFER,MOBILE,TND,TN59 8973 95295586 78,En_Attente,?,undefined
+TXN1244, C1074 ,03/01/91,$250611.47,retrait,mobile,Tnd,nr,en_attente,Transaction 244 — produit islamique,1669484974
+TXN1031,C01077,1991-06,260673,dépôt,N/A,USD,TN5955130736305105,0,Transaction 31 — produit islamique,1695331069
+1289,c1147,11/01/2010,"324,600.56",ijara_loyer,MOBILE,DT,nan,En_Attente,Transaction 289 — produit islamique,1699597105
+TXN01085,C1008,03/05/2005,"174,353.63",VIREMENT,,DINAR,TN59 7965 23746101 93,1,null,1658134251
+TXN1192,C1199,15/12/2007,361809.45,TRANSFER,swift,EUR,,REFUSED,Transaction 192 — produit islamique,1707305667000
+TXN1212,c1051,#NA,  357220.83  ,Virement,MOBILE,EUR,,En_Attente,Transaction 212 — produit islamique,na
+TXN1068,C01173,nil,  483408.89  ,débit,mobile,dinars,IBAN_INVALIDE,en_attente,Transaction 68 — produit islamique,--
+TXN01029,C1052,1988,297012.68€,VIREMENT,GUICHET,DT,NaN,pending,Transaction 29 — produit islamique,#NA
+TXN1260,C1196,na,  294565.14  ,murabaha_paiement,GUICHET,TND,TN59 1711 81110769 64,pending,-,?
+TXN1151,C01029,1998-11,198793,credit,,USD,TN5921531888653315,1,Transaction 151 — produit islamique,1704859602
+ TXN1066 , C1122 ,"February 13, 2011",267230.260000,TRANSFER,agence,XAU,TN5973200761438465,validé,Transaction 66 — produit islamique,1663709442000
+TXN1230, C1058 ,08-08-1996,194077.50 TND,retrait,app,TND,TN59 3916 43810519 81,,nil,NIL
+ TXN1114 ,C1063,"September 3, 2003",160035.580000,Virement,internet,Tnd,NA,refusé,Transaction 114 — produit islamique,1755088529000
+TXN1038,C1198,12-09-1997,233178.61 TND,TRANSFER,swift,dinars,IBAN_INVALIDE,REFUSED,Transaction 38 — produit islamique,na
+ TXN1122 , C1034 ,27-12-2019,292395.55 TND,TRANSFER,ATM,EUR,,VALIDÉ,Transaction 122 — produit islamique,NULL
+ TXN1282 ,C1080,"December 2, 2015",6008.810000,Virement,GUICHET,EUR,,pending,Transaction 282 — produit islamique,1674144251000
+TXN01253,1041,01/17/1991,"256,370.14",VIREMENT,agence,tnd,IBAN_INVALIDE,validé,Transaction 253 — produit islamique,1736572379
+txn1171,C1055,20051208,TND 338630.36,dépôt,guichet,USD,TN5974597805826438,annulé,Transaction 171 — produit islamique,1669386356000
+TXN1198,1105,"October 8, 2004",31761.690000,Virement,agence,dinars,IBAN_INVALIDE,validé,Transaction 198 — produit islamique,1691643572000
+TXN1078,C1151,"October 20, 1988",67060.490000,murabaha_paiement,ATM,dinars,IBAN_INVALIDE,VALIDÉ,Transaction 78 — produit islamique,1711954800000
+TXN01109,c1003,10/03/2016,"350,779.66",credit,app,DT,NULL,,Transaction 109 — produit islamique,1642741348
+ TXN1090 ,C1196,"March 6, 1989",257855.170000,retrait,mobile,TND,TN59 5402 94263610 63,en_attente,ND,1676924391000
+1249,C1167,  2022-06-24  ,258379.78,credit,GUICHET,DT,#N/A,pending,Transaction 249 — produit islamique,1716162116000
+TXN1256,1185,03/10/15,$461183.74,depot,MOBILE,XAU,TN5947226675444820,En_Attente,Transaction 256 — produit islamique,1757516304
+TXN01053,C1198,1999,317098.06€,credit,N/A,tnd,IBAN_INVALIDE,0,Transaction 53 — produit islamique,undefined
+TXN1240,C1056,12/12/2016,320455.19,Virement,N/A,TND,TN59 6971 52457517 64,0,?,1679497390000
+TXN1071, C1186 ,1991-05-11,"156013.98,",VIREMENT,swift,USD,TN5926334129370243,REFUSED,Transaction 71 — produit islamique,--
+1281,C1108,2006,16378.07€,VIREMENT,guichet,USD,TN5917619822795288,annulé,Transaction 281 — produit islamique,nil
+TXN1004,C1044,15/08/05,$171229.28,depot,internet,Tnd,NA,refusé,Transaction 4 — produit islamique,1705031997
+TXN01213,c1163,  1999-06-18  ,57791.09,dépôt,internet,tnd,IBAN_INVALIDE,refusé,Transaction 213 — produit islamique,1625060235000
+TXN1102,C1191,"July 29, 2002",323120.270000,depot,MOBILE,EUR,,En_Attente,Transaction 102 — produit islamique,1711748549000
+TXN1214,C1191,2022/09/29,NIL,depot,swift,Tnd,nd,REFUSED,Transaction 214 — produit islamique,1772568120
+TXN1196, C1178 ,02/08/17,$490786.43,virement,N/A,XAU,TN5925909275173570,0,Transaction 196 — produit islamique,1748155904
+txn1275,1017,2002-03-02,"394349.14,",ijara_loyer,agence,DINAR,TN59 8548 88762521 13,validé,nd,ND
+1113,c1011,2006,191551.44€,VIREMENT,MOBILE,tnd,IBAN_INVALIDE,En_Attente,Transaction 113 — produit islamique,NONE
+TXN1247,c1171,1994-04,453872,ijara_loyer,swift,?,,REFUSED,Transaction 247 — produit islamique,1671818228
+txn1083,C01197,2019-05-11,"274908.12,",UNKNOWN,guichet,tnd,IBAN_INVALIDE,annulé,Transaction 83 — produit islamique,#N/A
+TXN01261,c1059,  1988-10-05  ,299186.35,ijara_loyer,,USD,TN5977148611852267,1,Transaction 261 — produit islamique,1666300915000
+TXN01117,C1062,  1991-10-03  ,466205.53,DEPOT,GUICHET,?,,pending,Transaction 117 — produit islamique,1713451324000
+TXN01181,C1080,06/18/2013,"2,456.28",UNKNOWN,swift,USD,TN5998808467411975,REFUSED,Transaction 181 — produit islamique,1719790528
+1001,C01013,03/06/2011,"85,338.98",VIREMENT,ATM,USD,TN5942025757079815,VALIDÉ,Transaction 1 — produit islamique,1673939613
+TXN1134,C1168,27-10-1995,266891.41 TND,murabaha_paiement,mobile,Tnd,NaN,en_attente,Transaction 134 — produit islamique,nr
+txn1243,C01141,19960909,TND 447003.57,DEPOT,ATM,tnd,IBAN_INVALIDE,VALIDÉ,Transaction 243 — produit islamique,1649266741000
+TXN1118,C1000,2014/06/27,nr,retrait,,dinars,IBAN_INVALIDE,1,Transaction 118 — produit islamique,1693449420
+TXN1223,1129,1992-02,271585,UNKNOWN,MOBILE,tnd,IBAN_INVALIDE,En_Attente,Transaction 223 — produit islamique,1751314733
+txn1003,C1188,20170818,TND 352917.04,dépôt,MOBILE,tnd,IBAN_INVALIDE,En_Attente,Transaction 3 — produit islamique,1720338314000
+TXN1012, C1074 ,06/09/1986,149266.27,débit,ATM,EUR,,VALIDÉ,Transaction 12 — produit islamique,1747192870000
+1065,C1104,2015,69675.64€,ijara_loyer,app,DINAR,TN59 1440 71957885 36,,NaN,N/A
+TXN1188,1097,MISSING,  126443.87  ,retrait,ATM,dinars,IBAN_INVALIDE,VALIDÉ,Transaction 188 — produit islamique,None
+ TXN1154 ,C1015,2022/09/19,NIL,virement,agence,Tnd,MISSING,validé,Transaction 154 — produit islamique,1632245125
+txn1155,C01101,2023-04-22,"17460.77,",VIREMENT,ATM,DINAR,TN59 8779 86868410 40,VALIDÉ,missing,--
+1193,1025,06/24/2021,"437,082.81",credit,guichet,tnd,IBAN_INVALIDE,annulé,Transaction 193 — produit islamique,1679301792
+TXN1204, C1130 ,24/03/2010,327332.53,murabaha_paiement,guichet,Tnd,n/a,annulé,Transaction 204 — produit islamique,1684498827000
+TXN1287,C1176,1992-04-30,"107812.12,",RETRAIT,ATM,?,,VALIDÉ,Transaction 287 — produit islamique,UNKNOWN
+1217, C1178 ,11/26/1997,"332,280.33",RETRAIT,,?,,1,Transaction 217 — produit islamique,1671962770
+txn1051,C1144,19951015,TND 417341.81,ijara_loyer,GUICHET,USD,TN5952116779748588,pending,Transaction 51 — produit islamique,1630890056000
+TXN1008,C1143,N/A,  68722.75  ,murabaha_paiement,,dinars,IBAN_INVALIDE,1,Transaction 8 — produit islamique,nr
+TXN01045,c1003,  1985-10-02  ,361124.14,dépôt,ATM,DINAR,TN59 8993 12111482 10,VALIDÉ,n/a,1771394499000
+1033, C1106 ,  2003-04-25  ,150014.26,DEPOT,agence,tnd,IBAN_INVALIDE,validé,Transaction 33 — produit islamique,1631597160000
+txn1083,C01197,2019-05-11,"274908.12,",UNKNOWN,guichet,tnd,IBAN_INVALIDE,annulé,Transaction 83 — produit islamique,#N/A
+ TXN1218 ,C1064,10-02-1994,434438.10 TND,murabaha_paiement,N/A,dinars,IBAN_INVALIDE,0,Transaction 218 — produit islamique,?
+TXN01133,C1152,10/29/1994,"447,892.81",RETRAIT,ATM,tnd,IBAN_INVALIDE,VALIDÉ,Transaction 133 — produit islamique,1700583891
+TXN1024,C1088,02/06/2016,270627.64,TRANSFER,mobile,Tnd,NIL,en_attente,Transaction 24 — produit islamique,1757468994000
+TXN1296,c1043, ,  331808.21  ,Virement,app,XAU,TN5984131699359853,,Transaction 296 — produit islamique,UNKNOWN
+txn1147,C1023,20000228,TND 492639.52,RETRAIT,internet,?,,refusé,Transaction 147 — produit islamique,1767676505000
+TXN1104,c1139,NONE,  381386.70  ,retrait,swift,Tnd,na,REFUSED,Transaction 104 — produit islamique,null
+TXN01157,1081,08/13/2017,"33,599.28",dépôt,MOBILE,?,,En_Attente,Transaction 157 — produit islamique,1626648301
+TXN1072,C1112,22/05/2017,226278.35,Virement,guichet,EUR,,annulé,Transaction 72 — produit islamique,1695394653000
+TXN1174,1153,"February 16, 2003",159860.910000,retrait,N/A,Tnd, ,0,Transaction 174 — produit islamique,1769163083000
+TXN01189,1025,  2014-09-20  ,-135061.58,RETRAIT,mobile,DT,nd,en_attente,Transaction 189 — produit islamique,1739176627000
+TXN1232, C1074 ,19/04/20,$150745.22,murabaha_paiement,ATM,EUR,,VALIDÉ,Transaction 232 — produit islamique,1700426917
+TXN1134,C1168,27-10-1995,266891.41 TND,murabaha_paiement,mobile,Tnd,NaN,en_attente,Transaction 134 — produit islamique,nr
+TXN01205,C1143,06/05/2019,"300,015.58",ijara_loyer,GUICHET,DINAR,TN59 6953 17284695 38,pending,nd,1678475042
+txn1099,C1184,19940723,TND 374159.59,VIREMENT,agence,DT,na,validé,Transaction 99 — produit islamique,1657244665000
+txn1219, C1154 ,19931024,TND 362484.77,ijara_loyer,app,DT,nr,,Transaction 219 — produit islamique,1697028449000
+ TXN1146 ,C01005,19-04-1999,475835.90 TND,retrait,MOBILE,XAU,TN5914702326744056,En_Attente,Transaction 146 — produit islamique,NA
+TXN1182,C1111,02-06-2013,201756.40 TND,virement,guichet,EUR,,annulé,Transaction 182 — produit islamique,nil
+TXN01061,C01085,10/02/2022,"190,006.99",DEPOT,guichet,USD,TN5910950496268567,annulé,Transaction 61 — produit islamique,1657824739
+1161,1177,2003,197956.79€,RETRAIT,GUICHET,USD,TN5995661483091294,pending,Transaction 161 — produit islamique,ND
+txn1299, C1002 ,1985-01-02,"407708.36,",DEPOT,mobile,DT,n/a,en_attente,Transaction 299 — produit islamique,na
+TXN01229,C01117,02/27/2017,"19,039.37",DEPOT,N/A,DT,,0,Transaction 229 — produit islamique,1761428704
+TXN1191, C1010 ,2009-08-03,"455187.28,",ijara_loyer,internet,USD,TN5951568453380301,refusé,Transaction 191 — produit islamique,UNKNOWN
+TXN1199,c1171,2000-03,261599,dépôt,ATM,DT,NaN,VALIDÉ,Transaction 199 — produit islamique,1750429812
+1097, C1058 ,03/09/2002,"365,408.61",UNKNOWN,N/A,?,,0,Transaction 97 — produit islamique,1748293228
+TXN1268,C1182,20/10/11,$472863.36,Virement,internet,dinars,IBAN_INVALIDE,refusé,Transaction 268 — produit islamique,1728947195
+txn1163,1113,2019-09,160502,ijara_loyer,N/A,tnd,IBAN_INVALIDE,0,Transaction 163 — produit islamique,1664119602
+TXN1000,C1078,28/09/2020,436062.35,virement,agence,TND,TN59 1272 59440148 52,validé,,1648599339000
+TXN1116,c1051,#N/A,  392275.16  ,depot,guichet,XAU,TN5911122948174149,annulé,Transaction 116 — produit islamique,#NA
+TXN01093,1025,  2013-02-02  ,418367.42,ijara_loyer,swift,tnd,IBAN_INVALIDE,REFUSED,Transaction 93 — produit islamique,1742646517000
+1273,C1143,  1988-03-31  ,-147196.49,RETRAIT,N/A,tnd,IBAN_INVALIDE,0,Transaction 273 — produit islamique,1638211835000
+txn1067,c1163,1988-10,384500,credit,ATM,?,,VALIDÉ,Transaction 67 — produit islamique,1680699225
+TXN1191, C1010 ,2009-08-03,"455187.28,",ijara_loyer,internet,USD,TN5951568453380301,refusé,Transaction 191 — produit islamique,UNKNOWN
+txn1115,C1132,1987-01,34556,dépôt,swift,DINAR,TN59 7108 26025721 74,REFUSED,n/a,1692593880
+TXN01221,C1119,2016,20066.30€,credit,ATM,USD,TN5910791369268497,VALIDÉ,Transaction 221 — produit islamique,#NA
+TXN1135,C1044,19921125,TND 296300.50,ijara_loyer,MOBILE,DINAR,TN59 1916 39448924 83,En_Attente,nr,1679686067000
+TXN1280,c1147,29/04/97,$91517.64,virement,swift,TND,TN59 1692 74732147 57,REFUSED,missing,1700762680
+ TXN1298 ,C1088,2006/08/10,null,depot,ATM,dinars,IBAN_INVALIDE,VALIDÉ,Transaction 298 — produit islamique,1657385206
+TXN01141,c1187,  2015-11-20  ,63761.45,VIREMENT,N/A,USD,TN5963249757665314,0,Transaction 141 — produit islamique,1775513558000
+1153,C1015,  1991-10-13  ,348265.83,UNKNOWN,app,tnd,IBAN_INVALIDE,,Transaction 153 — produit islamique,1752989298000
+TXN1220,C1188,19/01/08,$188661.39,TRANSFER,agence,TND,TN59 8353 33813700 97,validé,N/A,1626585374
+TXN1280,c1147,29/04/97,$91517.64,virement,swift,TND,TN59 1692 74732147 57,REFUSED,missing,1700762680
+ TXN1082 ,C1007,2020/09/13, ,débit,swift,EUR,,REFUSED,Transaction 82 — produit islamique,1702215911
+1089,C1063,2019,338149.65€,DEPOT,ATM,DT,?,VALIDÉ,Transaction 89 — produit islamique,None
+txn1139,1169,2002-09,50605,UNKNOWN,GUICHET,DT,ND,pending,Transaction 139 — produit islamique,1689398040
+TXN1047,C1062,2016-04-11,"150057.32,",DEPOT,MOBILE,?,,En_Attente,Transaction 47 — produit islamique,null
+1145,1105,02/13/2007,"175,680.46",DEPOT,mobile,DINAR,TN59 1788 61799600 66,en_attente,NULL,1647284264
+TXN01277,C01045,05/18/2006,"176,833.61",credit,mobile,?,,en_attente,Transaction 277 — produit islamique,1703766698
+TXN01125,C01173,1998,410062.80€,UNKNOWN,internet,DINAR,TN59 2494 43315361 55,refusé,,nil
+ TXN1178 ,C1084,2001/09/03,undefined,TRANSFER,mobile,dinars,IBAN_INVALIDE,en_attente,Transaction 178 — produit islamique,1744379456
+ TXN1138 ,C1183,"December 17, 1992",422157.610000,débit,guichet,dinars,IBAN_INVALIDE,annulé,Transaction 138 — produit islamique,1760009247000
+txn1075,C1188,20120719,TND 224842.55,DEPOT,N/A,DINAR,TN59 4053 95963619 94,0,nil,1774801631000
+TXN1143,C1022,2021-11-10,"335045.28,",dépôt,agence,tnd,IBAN_INVALIDE,validé,Transaction 143 — produit islamique,NA
+TXN1207,C1183,20180423,TND 204664.46,credit,N/A,?,,0,Transaction 207 — produit islamique,1723403910000
+TXN1180,C1087,11/05/2003,446433.28,débit,internet,TND,TN59 9680 50044631 62,refusé,None,1691067642000
+TXN1244, C1074 ,03/01/91,$250611.47,retrait,mobile,Tnd,nr,en_attente,Transaction 244 — produit islamique,1669484974
+TXN01245,C01157,2015,378627.32€,RETRAIT,MOBILE,DINAR,TN59 6961 77399750 11,En_Attente,undefined,NONE
+ TXN1210 ,1177,"December 15, 2010",365274.280000,virement,ATM,TND,TN59 8091 88533572 71,VALIDÉ,NULL,1672002787000
+ TXN1034 ,C1118,1987/08/03,NIL,retrait,ATM,Tnd,--,VALIDÉ,Transaction 34 — produit islamique,1626400655
+1185,C1175,1991,498069.84€,dépôt,N/A,DINAR,TN59 8469 79831928 86,0,na,-
+TXN1223,1129,1992-02,271585,UNKNOWN,MOBILE,tnd,IBAN_INVALIDE,En_Attente,Transaction 223 — produit islamique,1751314733
+txn1211,C1087,1998-03,402417,VIREMENT,mobile,USD,TN5948505447986132,en_attente,Transaction 211 — produit islamique,1665200660
+txn1291,C1156,20100823,TND 424465.50,credit,swift,USD,TN5969366487037073,REFUSED,Transaction 291 — produit islamique,1754759733000
+TXN01005,1057,1998,144573.17€,DEPOT,swift,DINAR,TN59 8932 35805259 41,REFUSED,ND,ND
+1049,C1024,09/10/2008,"114,960.27",RETRAIT,swift,DT,#N/A,REFUSED,Transaction 49 — produit islamique,1623851219
+txn1187,c1163,1996-06,267413,DEPOT,agence,?,,validé,Transaction 187 — produit islamique,1763121915
+TXN1112,C1040,11/06/96,$51542.17,virement,mobile,EUR,,en_attente,Transaction 112 — produit islamique,1745036551
+TXN1206, C1090 ,04-06-2013,146062.58 TND,TRANSFER,,XAU,TN5910305895074616,1,Transaction 206 — produit islamique,na
+TXN1088,C1192,30/03/20,$459392.48,depot,agence,dinars,IBAN_INVALIDE,validé,Transaction 88 — produit islamique,1741934897
+1193,1025,06/24/2021,"437,082.81",credit,guichet,tnd,IBAN_INVALIDE,annulé,Transaction 193 — produit islamique,1679301792
+1257,c1051,2008,342215.48€,DEPOT,internet,?,,refusé,Transaction 257 — produit islamique,None
+1201,C1120,  1992-06-02  ,375739.86,DEPOT,MOBILE,USD,TN5932088734930730,En_Attente,Transaction 201 — produit islamique,1711332274000
+TXN1142,C1156,1994/11/29,UNKNOWN,Virement,app,EUR,,,Transaction 142 — produit islamique,1738242513
+TXN1270,C1167,"January 5, 1985",43512.720000,depot,guichet,TND,TN59 4795 92569402 31,annulé,-,1668774014000
+txn1059,C1068,1998-07-05,"246612.66,",dépôt,internet,DT,None,refusé,Transaction 59 — produit islamique,NONE
+TXN1124,C1180,24/01/12,$107588.89,débit,MOBILE,Tnd,?,En_Attente,Transaction 124 — produit islamique,1736180812
+TXN1032,C1044,nd,  213657.57  ,depot,app,EUR,,,Transaction 32 — produit islamique, 
+txn1027,1057,20220613,TND 378114.09,UNKNOWN,swift,?,,REFUSED,Transaction 27 — produit islamique,1651709517000
+TXN1248,C1180,?,  136820.31  ,TRANSFER,guichet,dinars,IBAN_INVALIDE,annulé,Transaction 248 — produit islamique,N/A
+TXN1272,C1070,#NA,  481532.26  ,retrait,,EUR,,1,Transaction 272 — produit islamique,nil
+txn1179, C1018 ,2006-03-08,"250288.64,",credit,MOBILE,DT,#NA,En_Attente,Transaction 179 — produit islamique,nil
+TXN1238,c1091,1990/10/02,NULL,virement,GUICHET,dinars,IBAN_INVALIDE,pending,Transaction 238 — produit islamique,1699455261
+TXN1271,C1132,1985-09,351840,DEPOT,GUICHET,USD,TN5992482293351034,pending,Transaction 271 — produit islamique,1628466025
+txn1091,c1187,1989-03,486077,RETRAIT,MOBILE,USD,TN5910350391831024,En_Attente,Transaction 91 — produit islamique,1679836498
+1225,C1088,  2004-12-28  ,452257.78,VIREMENT,swift,DINAR,TN59 8780 85341065 93,REFUSED,#NA,1710544324000
+TXN1015,C01109,20080212,TND 43460.21,VIREMENT,internet,DINAR,TN59 4164 33554528 88,refusé,NULL,1726394354000
+TXN1160, C1098 ,17/05/14,$286054.42,retrait,guichet,TND,TN59 5687 81891508 54,annulé, ,1729771667
+ TXN1194 ,1169,12-01-2014,164397.55 TND,débit,GUICHET,Tnd,None,pending,Transaction 194 — produit islamique,#NA
+TXN1086,C01109,12-06-1992,69703.56 TND,Virement,N/A,XAU,TN5995889513683114,0,Transaction 86 — produit islamique,?
+TXN1158,C01117,22-07-1985,350236.02 TND,depot,internet,dinars,IBAN_INVALIDE,refusé,Transaction 158 — produit islamique,missing
+1153,C1015,  1991-10-13  ,348265.83,UNKNOWN,app,tnd,IBAN_INVALIDE,,Transaction 153 — produit islamique,1752989298000
+TXN1023,C1172,2021-03-13,"361667.71,",ijara_loyer,ATM,tnd,IBAN_INVALIDE,VALIDÉ,Transaction 23 — produit islamique,N/A
+TXN1284,c1179,na,  182602.49  ,depot,N/A,Tnd,NIL,0,Transaction 284 — produit islamique,N/A
+TXN1040,C01141,14/03/11,$360033.97,débit,GUICHET,TND,TN59 6126 65556767 15,pending,None,1723331348
+TXN1063,C1188,20160305,TND 245554.56,RETRAIT,,tnd,IBAN_INVALIDE,1,Transaction 63 — produit islamique,1710920903000
+TXN1022, C1130 ,2004/12/25,None,murabaha_paiement,agence,EUR,,validé,Transaction 22 — produit islamique,1638222261
+txn1283,c1067,1995-08,235725,dépôt,,tnd,IBAN_INVALIDE,1,Transaction 283 — produit islamique,1683896924
+TXN1127,C1175,2013-04,42111,VIREMENT,guichet,?,,annulé,Transaction 127 — produit islamique,1706519541
+TXN1039,C1184,20060123,TND 419881.62,credit,guichet,DT,NULL,annulé,Transaction 39 — produit islamique,1676485834000
+TXN1264,C1142,23/08/2006,185169.46,débit,agence,Tnd,MISSING,validé,Transaction 264 — produit islamique,1646137800000
+ TXN1274 ,C01197,1995/11/30,-,murabaha_paiement,app,Tnd,UNKNOWN,,Transaction 274 — produit islamique,1652824992
+1121, C1074 ,09/16/1996,"463,028.37",ijara_loyer,agence,USD,TN5928399486214728,validé,Transaction 121 — produit islamique,1688418690
+TXN1176,1121,na,  253706.70  ,murabaha_paiement,agence,XAU,TN5999835832203392,validé,Transaction 176 — produit islamique,?
+TXN1294,C1024,"November 12, 1987",274262.030000,virement,,Tnd,NULL,1,Transaction 294 — produit islamique,1669423943000
+txn1035,C1084,2014-01-04,"461120.83,",RETRAIT,mobile,DINAR,TN59 9683 27997624 59,en_attente,null,MISSING
+ TXN1010 ,C1104,2014/04/15,nan,TRANSFER,app,TND,TN59 2647 28450513 10,,-,1698889426
+ TXN1002 ,C1004,13-10-2004,209448.27 TND,Virement,mobile,EUR,,en_attente,Transaction 2 — produit islamique,ND
+txn1267,C1022,19871116,TND 110962.95,VIREMENT,MOBILE,?,,En_Attente,Transaction 267 — produit islamique,1765861308000
+ TXN1202 ,C1164,2001/12/26,null,retrait,internet,EUR,,refusé,Transaction 202 — produit islamique,1652758913
+TXN1263,C1166,2011-04-05,"130725.32,",credit,app,tnd,IBAN_INVALIDE,,Transaction 263 — produit islamique,NIL
+TXN1030,C1055,"November 3, 2018",28316.370000,Virement,,TND,TN59 1797 42847661 15,1,n/a,1713138926000
+TXN01149,C1024,1987,285927.73€,ijara_loyer,guichet,DT,NaN,annulé,Transaction 149 — produit islamique,UNKNOWN
+TXN1070,C01173,2011/05/28,na,virement,internet,TND,TN59 4621 69831384 57,refusé,,1646403302
+txn1203,C1030,2018-06-06,"8982.79,",RETRAIT,swift,tnd,IBAN_INVALIDE,REFUSED,Transaction 203 — produit islamique,NIL
+ TXN1042 ,C1184,"July 8, 2009",92105.480000,virement,N/A,EUR,,0,Transaction 42 — produit islamique,1760230414000
+TXN01149,C1024,1987,285927.73€,ijara_loyer,guichet,DT,NaN,annulé,Transaction 149 — produit islamique,UNKNOWN
+TXN1166,C1092,2016/08/10,?,débit,ATM,XAU,TN5974235672918020,VALIDÉ,Transaction 166 — produit islamique,1651383485
+TXN1222, C1146 ,"September 5, 2009",36533.110000,débit,mobile,EUR,,en_attente,Transaction 222 — produit islamique,1690671553000
+TXN1120,C1148,15/04/1989,66843.57,murabaha_paiement,app,TND,TN59 4792 79760901 62,,nil,1755909025000
+1057, C1026 ,  1986-03-07  ,177021.75,VIREMENT,mobile,?,,en_attente,Transaction 57 — produit islamique,1688907577000
+TXN1004,C1044,15/08/05,$171229.28,depot,internet,Tnd,NA,refusé,Transaction 4 — produit islamique,1705031997
+ TXN1026 ,1169,11-03-2009,326801.70 TND,débit,internet,XAU,TN5921293082406487,refusé,Transaction 26 — produit islamique,NULL
+TXN1184,C1150,29/06/92,$411939.53,Virement,,Tnd,missing,1,Transaction 184 — produit islamique,1697927688
+TXN1279,C01173,20141005,TND 306952.10,UNKNOWN,internet,DT,null,refusé,Transaction 279 — produit islamique,1630645373000
+TXN1152,1097,NONE,  222943.06  ,débit,N/A,EUR,,0,Transaction 152 — produit islamique,undefined
+TXN1246,c1187,"September 9, 2006",20305.870000,murabaha_paiement,internet,XAU,TN5930577049740441,refusé,Transaction 246 — produit islamique,1645095737000
+1129,1185,  2002-09-20  ,14838.20,dépôt,,DT,NIL,1,Transaction 129 — produit islamique,1661464428000
+TXN01285,1097,  1993-10-18  ,400038.73,DEPOT,app,DINAR,TN59 8384 34144323 83,,None,1649029692000
+TXN1276,1137,09/06/1985,416105.30,TRANSFER,ATM,XAU,TN5959696875222701,VALIDÉ,Transaction 276 — produit islamique,1698877469000
+TXN01021,C1140,  2007-09-04  ,-286393.57,RETRAIT,app,USD,TN5918689200772922,,Transaction 21 — produit islamique,1731828573000
+1081, C1098 ,  2010-03-11  ,326569.57,credit,internet,USD,TN5929213470094493,refusé,Transaction 81 — produit islamique,1643999518000
+TXN01165,C1199,  2023-03-10  ,439678.36,credit,agence,DINAR,TN59 9442 31336920 18,validé,NONE,1724251636000
+txn1251,C1038,1993-05-21,"181175.25,",UNKNOWN,N/A,USD,TN5949520757803199,0,Transaction 251 — produit islamique,?
+TXN1199,c1171,2000-03,261599,dépôt,ATM,DT,NaN,VALIDÉ,Transaction 199 — produit islamique,1750429812
+ TXN1242 ,C1160,06-06-1988,37792.44 TND,depot,agence,EUR,,validé,Transaction 242 — produit islamique,missing
+ TXN1106 ,1137,2009/02/12,null,murabaha_paiement,GUICHET,XAU,TN5921598139467549,pending,Transaction 106 — produit islamique,1692806182
+ TXN1266 ,C1175,15-09-2016,80452.93 TND,virement,mobile,XAU,TN5996417106702336,en_attente,Transaction 266 — produit islamique,
+TXN1048,1121,09/07/1987,4824.14,retrait,internet,dinars,IBAN_INVALIDE,refusé,Transaction 48 — produit islamique,1753800293000
+txn1235,C1100,2009-02,473495,credit,internet,DINAR,TN59 3316 26540343 15,refusé,nan,1683694205
+TXN01101,c1155,1997,470645.49€,dépôt,mobile,USD,TN5994445933277954,en_attente,Transaction 101 — produit islamique,nd
+1017,C1092,2016,31155.95€,dépôt,guichet,?,,annulé,Transaction 17 — produit islamique,undefined
+TXN1126, C1026 ,"January 23, 2021",69982.540000,virement,swift,XAU,TN5923328356628382,REFUSED,Transaction 126 — produit islamique,1759441985000
+ TXN1226 ,1065,2009/03/27,missing,Virement,guichet,XAU,TN5925959862195786,annulé,Transaction 226 — produit islamique,1675344146
+TXN01197,C1112,1993,189937.41€,VIREMENT,app,?,,,Transaction 197 — produit islamique,#NA
+TXN1127,C1175,2013-04,42111,VIREMENT,guichet,?,,annulé,Transaction 127 — produit islamique,1706519541
+TXN1062,C1076,21-05-1999,473644.73 TND,retrait,GUICHET,EUR,,pending,Transaction 62 — produit islamique,UNKNOWN
+TXN1006,C1184,"April 8, 1997",61024.870000,retrait,guichet,XAU,TN5988882867456570,annulé,Transaction 6 — produit islamique,1630184488000
+txn1195,C01029,20021224,TND 481158.73,UNKNOWN,,DINAR,TN59 5395 22475714 57,1,?,1672456467000
+TXN1128,C1032,?,  404462.72  ,Virement,GUICHET,dinars,IBAN_INVALIDE,pending,Transaction 128 — produit islamique, 
+ TXN1098 ,C1192,22-12-1990,496470.78 TND,virement,app,dinars,IBAN_INVALIDE,,Transaction 98 — produit islamique,null
+TXN1092, C1082 ,n/a,  168943.80  ,murabaha_paiement,internet,EUR,,refusé,Transaction 92 — produit islamique,None
+TXN1240,C1056,12/12/2016,320455.19,Virement,N/A,TND,TN59 6971 52457517 64,0,?,1679497390000
+TXN1278,C1188,10-11-1995,103468.64 TND,débit,MOBILE,dinars,IBAN_INVALIDE,En_Attente,Transaction 278 — produit islamique,?
+TXN1036, C1018 ,10/06/1993,380872.04,murabaha_paiement,MOBILE,XAU,TN5994853972223753,En_Attente,Transaction 36 — produit islamique,1625980896000
+TXN1200,C01173,nil,  74412.36  ,depot,mobile,TND,TN59 8091 98813650 41,en_attente,MISSING,#NA
+TXN1136,C1048,14/07/22,$440825.02,TRANSFER,internet,XAU,TN5929999788401601,refusé,Transaction 136 — produit islamique,1630470714
+TXN1028,C1088,17/12/91,$94321.38,virement,guichet,dinars,IBAN_INVALIDE,annulé,Transaction 28 — produit islamique,1745704676
+ TXN1074 ,C01109,23-09-2005,398898.12 TND,depot,,Tnd,MISSING,1,Transaction 74 — produit islamique,NONE
+1041,C1167,2015,128737.65€,UNKNOWN,,USD,TN5980271015332227,1,Transaction 41 — produit islamique,UNKNOWN
+1169,C1054,12/06/1994,"112,633.51",VIREMENT,internet,DT,-,refusé,Transaction 169 — produit islamique,1703764607
+TXN1016, C1066 ,17/03/02,$223423.09,Virement,swift,XAU,TN5944913513521334,REFUSED,Transaction 16 — produit islamique,1687513061
+TXN01237,C1192,  2009-08-15  ,322372.79,UNKNOWN,guichet,?,,annulé,Transaction 237 — produit islamique,1697974698000
+TXN1190,C1072,1990/02/11,nan,murabaha_paiement,MOBILE,TND,TN59 7862 24081350 75,En_Attente,#NA,1722376363
+TXN1255,c1123,19920826,TND 415198.75,dépôt,mobile,DINAR,TN59 5644 21508969 37,en_attente,None,1619593299000
+TXN1159,C1150,20190108,TND 462471.59,DEPOT,swift,DT,#N/A,REFUSED,Transaction 159 — produit islamique,1748886765000
+TXN1215,c1171,1987-07-17,"133562.44,",DEPOT,guichet,DINAR,TN59 9564 24290224 13,annulé,NONE,n/a
+TXN1175,c1099,2018-01,291553,RETRAIT,app,DINAR,TN59 9148 49675382 43,,?,1725016216
+TXN1111,c1067,20161214,TND 313803.66,UNKNOWN,ATM,USD,TN5983724281783609,VALIDÉ,Transaction 111 — produit islamique,1653804956000
+TXN1252, C1122 ,28/06/2006,295436.37,virement,app,EUR,,,Transaction 252 — produit islamique,1665696263000
+TXN1007, C1010 ,1997-11,39606,RETRAIT,GUICHET,?,,pending,Transaction 7 — produit islamique,1707157525
+TXN1112,C1040,11/06/96,$51542.17,virement,mobile,EUR,,en_attente,Transaction 112 — produit islamique,1745036551
+TXN1046,C01061,1993/08/11,?,depot,mobile,XAU,TN5983800836712175,en_attente,Transaction 46 — produit islamique,1680851621
+TXN1119,C01125,1987-09-09,"355855.07,",RETRAIT,N/A,DT,NIL,0,Transaction 119 — produit islamique, 
+TXN1004,C1044,15/08/05,$171229.28,depot,internet,Tnd,NA,refusé,Transaction 4 — produit islamique,1705031997
+TXN1224,C1092,nan,  475159.11  ,virement,internet,Tnd,NA,refusé,Transaction 224 — produit islamique,missing
+TXN1064,C1144,18/12/93,$498632.74,murabaha_paiement,N/A,Tnd,NULL,0,Transaction 64 — produit islamique,1628330061
+1137,c1059,2011,10062.00€,credit,swift,?,,REFUSED,Transaction 137 — produit islamique,
+TXN1144,1017,21/09/2000,393531.30,depot,ATM,Tnd,ND,VALIDÉ,Transaction 144 — produit islamique,1775652271000
+TXN1052,C1088,30/05/87,$218600.42,TRANSFER,,EUR,,1,Transaction 52 — produit islamique,1755590186
+TXN1095,C1160,1998-09-15,"349750.74,",credit,GUICHET,DINAR,TN59 6905 43606680 20,pending,NIL,not available
+txn1011, C1146 ,1995-06-02,"369369.39,",credit,agence,USD,TN5922591850793295,validé,Transaction 11 — produit islamique,NONE
+1273,C1143,  1988-03-31  ,-147196.49,RETRAIT,N/A,tnd,IBAN_INVALIDE,0,Transaction 273 — produit islamique,1638211835000
+1025, C1034 ,05/10/2019,"489,168.81",credit,MOBILE,DINAR,TN59 8734 14259382 46,En_Attente,NIL,1675477592
+TXN01077,C1152,2002,196332.75€,RETRAIT,agence,?,,validé,Transaction 77 — produit islamique,na
+1009,c1059,  1987-05-11  ,206709.35,ijara_loyer,N/A,DT,not available,0,Transaction 9 — produit islamique,1649186221000
+TXN1164,C1124,missing,  433607.77  ,TRANSFER,app,Tnd,nr,,Transaction 164 — produit islamique, 
+TXN1096,1033,19/08/2011,259770.18,débit,,XAU,TN5977105485669675,1,Transaction 96 — produit islamique,1773503233000
+txn1251,C1038,1993-05-21,"181175.25,",UNKNOWN,N/A,USD,TN5949520757803199,0,Transaction 251 — produit islamique,?
+ TXN1202 ,C1164,2001/12/26,null,retrait,internet,EUR,,refusé,Transaction 202 — produit islamique,1652758913
+txn1139,1169,2002-09,50605,UNKNOWN,GUICHET,DT,ND,pending,Transaction 139 — produit islamique,1689398040
+TXN1231,1001,20131010,TND 309212.84,RETRAIT,agence,USD,TN5926650185035351,validé,Transaction 231 — produit islamique,1618798225000
+TXN1287,C1176,1992-04-30,"107812.12,",RETRAIT,ATM,?,,VALIDÉ,Transaction 287 — produit islamique,UNKNOWN
+1233,C1136,1994,373402.28€,ijara_loyer,mobile,tnd,IBAN_INVALIDE,en_attente,Transaction 233 — produit islamique,--
+TXN1216, C1138 ,14/06/1986,407031.71,retrait,GUICHET,XAU,TN5938708829025545,pending,Transaction 216 — produit islamique,1625166329000
+TXN1056,C1092,N/A,  51205.48  ,virement,ATM,XAU,TN5953387514640249,VALIDÉ,Transaction 56 — produit islamique,NONE
+TXN1148,1025,08/11/99,$487201.77,murabaha_paiement,swift,dinars,IBAN_INVALIDE,REFUSED,Transaction 148 — produit islamique,1627252756
+TXN01069, C1130 ,  2018-07-03  ,279040.91,UNKNOWN,MOBILE,DT,NaN,En_Attente,Transaction 69 — produit islamique,1621582602000

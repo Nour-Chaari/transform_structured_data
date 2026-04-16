@@ -1,0 +1,81 @@
+2026-04-15 11:14:56  INFO      Silver logs → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\logs\silver_pipeline_20260415_101456.log
+2026-04-15 11:14:57  INFO      ╔══════════════════════════════════════════╗
+2026-04-15 11:14:57  INFO      ║  SILVER PIPELINE v11 LOCAL  —  démarrage ║
+2026-04-15 11:14:57  INFO      ╚══════════════════════════════════════════╝
+2026-04-15 11:14:57  INFO        Bronze  : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\bronze
+2026-04-15 11:14:57  INFO        Silver  : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver
+2026-04-15 11:14:57  INFO        State   : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\pipeline_state\pipeline_state.json
+2026-04-15 11:14:57  INFO        Run TS  : 20260415_101456
+2026-04-15 11:14:57  INFO        pyarrow : True
+2026-04-15 11:15:07  INFO      Spark créé : 4.1.1
+2026-04-15 11:15:07  INFO      Sources découvertes : 6 groupes, 6 fichiers
+2026-04-15 11:15:07  INFO        [NOUVEAU] source_file__clients
+2026-04-15 11:15:07  INFO        [NOUVEAU] source_file__comptes_epargne
+2026-04-15 11:15:07  INFO        [NOUVEAU] source_file__contracts
+2026-04-15 11:15:07  INFO        [NOUVEAU] source_file__credits_islamiques
+2026-04-15 11:15:07  INFO        [NOUVEAU] source_file__marche_sukuk
+2026-04-15 11:15:07  INFO        [NOUVEAU] source_file__transactions
+2026-04-15 11:15:07  INFO      Changements : 6 à traiter / 0 inchangés / 0 supprimés
+2026-04-15 11:15:07  INFO      ═══ Traitement : source_file/clients (1 fichier(s)) ═══
+2026-04-15 11:15:07  INFO        CSV lu : 225 lignes × 11 colonnes
+2026-04-15 11:15:09  INFO        Dédupliqué (toutes colonnes hors meta) : 24 doublons
+2026-04-15 11:15:09  INFO        Quarantaine [invalid_phone] : 83 lignes → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\quarantine\source_file\clients\quarantine_20260415_101507\invalid_phone.json
+2026-04-15 11:15:09  INFO        Quarantaine [doublon] : 24 lignes → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\quarantine\source_file\clients\quarantine_20260415_101507\doublon.json
+2026-04-15 11:15:09  INFO        ✓ 201 lignes → Silver | 107 en quarantaine
+2026-04-15 11:15:09  INFO      METRICS: {"event": "silver_pipeline_metrics", "timestamp": "2026-04-15T10:15:09.685998", "group_key": "source_file/clients", "table_name": "clients", "source_type": "source_file", "rows_input": 308, "rows_output": 201, "rows_quarantined": 107, "duration_seconds": 2.209, "success": true, "python_version": "3.11.9"}
+2026-04-15 11:15:09  INFO        [Prometheus] .prom mis à jour → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\metrics_export\clients.prom
+2026-04-15 11:15:09  INFO        [Prometheus] Gateway inaccessible → fichier .prom uniquement
+2026-04-15 11:15:09  INFO        [pyarrow] Silver Parquet → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\clients\processed_20260415_101507
+2026-04-15 11:15:09  INFO        Silver → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\clients\processed_20260415_101507 | Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\clients\report_20260415_101507.json
+2026-04-15 11:15:09  INFO      ═══ Traitement : source_file/comptes_epargne (1 fichier(s)) ═══
+2026-04-15 11:15:09  INFO        CSV lu : 198 lignes × 12 colonnes
+2026-04-15 11:15:11  INFO        Dédupliqué (toutes colonnes hors meta) : 2 doublons
+2026-04-15 11:15:11  INFO        Quarantaine [invalid_phone] : 76 lignes → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\quarantine\source_file\comptes_epargne\quarantine_20260415_101509\invalid_phone.json
+2026-04-15 11:15:11  INFO        Quarantaine [doublon] : 2 lignes → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\quarantine\source_file\comptes_epargne\quarantine_20260415_101509\doublon.json
+2026-04-15 11:15:11  INFO        ✓ 196 lignes → Silver | 78 en quarantaine
+2026-04-15 11:15:11  INFO      METRICS: {"event": "silver_pipeline_metrics", "timestamp": "2026-04-15T10:15:11.624134", "group_key": "source_file/comptes_epargne", "table_name": "comptes_epargne", "source_type": "source_file", "rows_input": 274, "rows_output": 196, "rows_quarantined": 78, "duration_seconds": 1.877, "success": true, "python_version": "3.11.9"}
+2026-04-15 11:15:11  INFO        [Prometheus] .prom mis à jour → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\metrics_export\comptes_epargne.prom
+2026-04-15 11:15:11  INFO        [Prometheus] Gateway inaccessible → fichier .prom uniquement
+2026-04-15 11:15:11  INFO        [pyarrow] Silver Parquet → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\comptes_epargne\processed_20260415_101509
+2026-04-15 11:15:11  INFO        Silver → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\comptes_epargne\processed_20260415_101509 | Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\comptes_epargne\report_20260415_101509.json
+2026-04-15 11:15:11  INFO      ═══ Traitement : source_file/contracts (1 fichier(s)) ═══
+2026-04-15 11:15:11  INFO        CSV lu : 10000 lignes × 7 colonnes
+2026-04-15 11:15:13  INFO        ✓ 10000 lignes → Silver | 0 en quarantaine
+2026-04-15 11:15:13  INFO      METRICS: {"event": "silver_pipeline_metrics", "timestamp": "2026-04-15T10:15:13.442433", "group_key": "source_file/contracts", "table_name": "contracts", "source_type": "source_file", "rows_input": 10000, "rows_output": 10000, "rows_quarantined": 0, "duration_seconds": 1.779, "success": true, "python_version": "3.11.9"}
+2026-04-15 11:15:13  INFO        [Prometheus] .prom mis à jour → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\metrics_export\contracts.prom
+2026-04-15 11:15:13  INFO        [Prometheus] Gateway inaccessible → fichier .prom uniquement
+2026-04-15 11:15:13  INFO        [pyarrow] Silver Parquet → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\contracts\processed_20260415_101511
+2026-04-15 11:15:13  INFO        Silver → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\contracts\processed_20260415_101511 | Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\contracts\report_20260415_101511.json
+2026-04-15 11:15:13  INFO      ═══ Traitement : source_file/credits_islamiques (1 fichier(s)) ═══
+2026-04-15 11:15:13  INFO        CSV lu : 150 lignes × 12 colonnes
+2026-04-15 11:15:34  INFO        ✓ 150 lignes → Silver | 0 en quarantaine
+2026-04-15 11:15:34  INFO      METRICS: {"event": "silver_pipeline_metrics", "timestamp": "2026-04-15T10:15:34.401380", "group_key": "source_file/credits_islamiques", "table_name": "credits_islamiques", "source_type": "source_file", "rows_input": 150, "rows_output": 150, "rows_quarantined": 0, "duration_seconds": 20.931, "success": true, "python_version": "3.11.9"}
+2026-04-15 11:15:34  INFO        [Prometheus] .prom mis à jour → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\metrics_export\credits_islamiques.prom
+2026-04-15 11:15:34  INFO        [Prometheus] Gateway inaccessible → fichier .prom uniquement
+2026-04-15 11:15:34  INFO        [pyarrow] Silver Parquet → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\credits_islamiques\processed_20260415_101513
+2026-04-15 11:15:34  INFO        Silver → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\credits_islamiques\processed_20260415_101513 | Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\credits_islamiques\report_20260415_101513.json
+2026-04-15 11:15:34  INFO      ═══ Traitement : source_file/marche_sukuk (1 fichier(s)) ═══
+2026-04-15 11:15:34  INFO        CSV lu : 250 lignes × 12 colonnes
+2026-04-15 11:15:55  INFO        ✓ 250 lignes → Silver | 0 en quarantaine
+2026-04-15 11:15:55  INFO      METRICS: {"event": "silver_pipeline_metrics", "timestamp": "2026-04-15T10:15:55.366626", "group_key": "source_file/marche_sukuk", "table_name": "marche_sukuk", "source_type": "source_file", "rows_input": 250, "rows_output": 250, "rows_quarantined": 0, "duration_seconds": 20.933, "success": true, "python_version": "3.11.9"}
+2026-04-15 11:15:55  INFO        [Prometheus] .prom mis à jour → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\metrics_export\marche_sukuk.prom
+2026-04-15 11:15:55  INFO        [Prometheus] Gateway inaccessible → fichier .prom uniquement
+2026-04-15 11:15:55  INFO        [pyarrow] Silver Parquet → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\marche_sukuk\processed_20260415_101534
+2026-04-15 11:15:55  INFO        Silver → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\marche_sukuk\processed_20260415_101534 | Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\marche_sukuk\report_20260415_101534.json
+2026-04-15 11:15:55  INFO      ═══ Traitement : source_file/transactions (1 fichier(s)) ═══
+2026-04-15 11:15:55  INFO        CSV lu : 337 lignes × 11 colonnes
+2026-04-15 11:16:14  INFO        Dédupliqué (toutes colonnes hors meta) : 37 doublons
+2026-04-15 11:16:14  INFO        Quarantaine [doublon] : 37 lignes → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\quarantine\source_file\transactions\quarantine_20260415_101555\doublon.json
+2026-04-15 11:16:14  INFO        ✓ 300 lignes → Silver | 37 en quarantaine
+2026-04-15 11:16:14  INFO      METRICS: {"event": "silver_pipeline_metrics", "timestamp": "2026-04-15T10:16:14.311734", "group_key": "source_file/transactions", "table_name": "transactions", "source_type": "source_file", "rows_input": 337, "rows_output": 300, "rows_quarantined": 37, "duration_seconds": 18.919, "success": true, "python_version": "3.11.9"}
+2026-04-15 11:16:14  INFO        [Prometheus] .prom mis à jour → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\metrics_export\transactions.prom
+2026-04-15 11:16:14  INFO        [Prometheus] Gateway inaccessible → fichier .prom uniquement
+2026-04-15 11:16:14  INFO        [pyarrow] Silver Parquet → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\transactions\processed_20260415_101555
+2026-04-15 11:16:14  INFO        Silver → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\transactions\processed_20260415_101555 | Rapport → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\source_file\transactions\report_20260415_101555.json
+2026-04-15 11:16:14  INFO      [State] État sauvegardé → C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\pipeline_state\pipeline_state.json
+2026-04-15 11:16:14  INFO      ╔══════════════════════════════════════════╗
+2026-04-15 11:16:14  INFO      ║  RÉSULTATS : 6 OK  /  0 ÉCHEC(S)       ║
+2026-04-15 11:16:14  INFO      ║  Temps total d'exécution : 76.9 s        ║
+2026-04-15 11:16:14  INFO      ╚══════════════════════════════════════════╝
+2026-04-15 11:16:14  INFO      Fichier log   : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\logs\silver_pipeline_20260415_101456.log
+2026-04-15 11:16:14  INFO      État persisté : C:\Users\chaar\OneDrive\Bureau\transform_structured_data\data\silver\pipeline_state\pipeline_state.json

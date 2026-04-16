@@ -1,0 +1,13 @@
+# TYPE gold_rows_valid_total gauge
+gold_rows_valid_total{table="clients",db="",source_type="source_file"} 170
+# TYPE gold_rows_quarantine_total gauge
+gold_rows_quarantine_total{table="clients",db="",source_type="source_file"} 31
+# TYPE gold_validity_rate_percent gauge
+gold_validity_rate_percent{table="clients",db="",source_type="source_file"} 84.58
+# TYPE gold_quarantine_rate_percent gauge
+gold_quarantine_rate_percent{table="clients",db="",source_type="source_file"} 15.42
+# TYPE gold_completeness_avg_percent gauge
+gold_completeness_avg_percent{table="clients",db="",source_type="source_file"} 89.64
+gold_violations_critique{table="clients",db="",source_type="source_file"} 67
+gold_violations_important{table="clients",db="",source_type="source_file"} 5
+gold_violations_domain_general{table="clients",db="",source_type="source_file"} 72

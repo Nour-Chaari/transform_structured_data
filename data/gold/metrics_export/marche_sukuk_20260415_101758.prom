@@ -1,0 +1,13 @@
+# TYPE gold_rows_valid_total gauge
+gold_rows_valid_total{table="marche_sukuk",db="",source_type="source_file"} 0
+# TYPE gold_rows_quarantine_total gauge
+gold_rows_quarantine_total{table="marche_sukuk",db="",source_type="source_file"} 250
+# TYPE gold_validity_rate_percent gauge
+gold_validity_rate_percent{table="marche_sukuk",db="",source_type="source_file"} 0.0
+# TYPE gold_quarantine_rate_percent gauge
+gold_quarantine_rate_percent{table="marche_sukuk",db="",source_type="source_file"} 100.0
+# TYPE gold_completeness_avg_percent gauge
+gold_completeness_avg_percent{table="marche_sukuk",db="",source_type="source_file"} 86.9
+gold_violations_critique{table="marche_sukuk",db="",source_type="source_file"} 105
+gold_violations_important{table="marche_sukuk",db="",source_type="source_file"} 215
+gold_violations_domain_general{table="marche_sukuk",db="",source_type="source_file"} 320

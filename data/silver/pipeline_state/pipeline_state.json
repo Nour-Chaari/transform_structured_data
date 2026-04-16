@@ -1,0 +1,55 @@
+{
+  "bronze_hashes": {
+    "source_file__clients": "3bc68eb87526ddeb195ef52258b5a1c9",
+    "source_file__comptes_epargne": "83e32d85718db92852137b22e72503eb",
+    "source_file__contracts": "bf174d8457b41b4a2e61608525fbf638",
+    "source_file__credits_islamiques": "4c166b6747213d4802a4029fe60e7990",
+    "source_file__marche_sukuk": "2ff63c11f81781f07740a36fe94dc266",
+    "source_file__transactions": "ed96ca54ec92e5243d071865dc884387"
+  },
+  "silver_outputs": {
+    "source_file__clients": {
+      "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\clients\\processed_20260415_101507",
+      "ts": "20260415_101509",
+      "row_count": 201,
+      "bronze_hash": "3bc68eb87526ddeb195ef52258b5a1c9",
+      "processed_at": "2026-04-15T10:15:09.747590"
+    },
+    "source_file__comptes_epargne": {
+      "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\comptes_epargne\\processed_20260415_101509",
+      "ts": "20260415_101511",
+      "row_count": 196,
+      "bronze_hash": "83e32d85718db92852137b22e72503eb",
+      "processed_at": "2026-04-15T10:15:11.663725"
+    },
+    "source_file__contracts": {
+      "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\contracts\\processed_20260415_101511",
+      "ts": "20260415_101513",
+      "row_count": 10000,
+      "bronze_hash": "bf174d8457b41b4a2e61608525fbf638",
+      "processed_at": "2026-04-15T10:15:13.470418"
+    },
+    "source_file__credits_islamiques": {
+      "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\credits_islamiques\\processed_20260415_101513",
+      "ts": "20260415_101534",
+      "row_count": 150,
+      "bronze_hash": "4c166b6747213d4802a4029fe60e7990",
+      "processed_at": "2026-04-15T10:15:34.433625"
+    },
+    "source_file__marche_sukuk": {
+      "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\marche_sukuk\\processed_20260415_101534",
+      "ts": "20260415_101555",
+      "row_count": 250,
+      "bronze_hash": "2ff63c11f81781f07740a36fe94dc266",
+      "processed_at": "2026-04-15T10:15:55.392413"
+    },
+    "source_file__transactions": {
+      "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\transactions\\processed_20260415_101555",
+      "ts": "20260415_101614",
+      "row_count": 300,
+      "bronze_hash": "ed96ca54ec92e5243d071865dc884387",
+      "processed_at": "2026-04-15T10:16:14.344970"
+    }
+  },
+  "last_run": "2026-04-15T10:16:14.344970"
+}

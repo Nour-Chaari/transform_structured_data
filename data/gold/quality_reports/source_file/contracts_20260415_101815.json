@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "source_type": "source_file",
+    "db_name": "",
+    "table_name": "contracts",
+    "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\contracts\\processed_20260415_101511",
+    "silver_ts": "20260415_101513",
+    "silver_row_count": 10000,
+    "_silver_group_key": "source_file__contracts",
+    "_reason": "NOUVEAU"
+  },
+  "metrics": {
+    "table": "contracts",
+    "source_type": "source_file",
+    "db_name": "",
+    "timestamp": "2026-04-15T10:18:15.074328",
+    "rows": {
+      "total": 10000,
+      "valid": 10000,
+      "quarantined": 0,
+      "validity_rate": 100.0,
+      "quarantine_rate": 0.0
+    },
+    "completeness": {
+      "by_column": {
+        "contract_id": 100.0,
+        "client_id": 100.0,
+        "product_type": 100.0,
+        "financing_amount_tnd": 100.0,
+        "debt_like_amount_tnd": 66.52,
+        "total_assets_tnd": 66.57,
+        "status": 100.0
+      },
+      "average": 90.44
+    },
+    "violations": {
+      "by_rule": {},
+      "by_domain": {},
+      "by_severity": {
+        "CRITIQUE": 0,
+        "IMPORTANT": 0,
+        "AVERTISSEMENT": 0
+      }
+    },
+    "precision_recall": {
+      "available": false,
+      "note": "Colonne _ground_truth absente"
+    },
+    "alerts": []
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "pipeline": "gold_pipeline_v7_local",
+  "timestamp": "20260415_101758",
+  "silver_root": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver",
+  "gold_root": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold",
+  "summary": {
+    "tables_processed": 6,
+    "tables_skipped": 0,
+    "tables_success": 6,
+    "total_rows": 11097,
+    "total_rows_valid": 10298,
+    "total_rows_quarantined": 799,
+    "global_validity_rate": 92.8
+  },
+  "pipeline_quality_metrics": {
+    "avg_precision": null,
+    "avg_recall": null,
+    "avg_f1_score": null
+  },
+  "alerts": [
+    {
+      "level": "WARNING",
+      "message": "Taux quarantaine élevé : 15.42%"
+    },
+    {
+      "level": "CRITICAL",
+      "message": "Taux quarantaine critique : 99.49%"
+    },
+    {
+      "level": "CRITICAL",
+      "message": "Taux quarantaine critique : 94.67%"
+    },
+    {
+      "level": "CRITICAL",
+      "message": "Taux quarantaine critique : 100.0%"
+    },
+    {
+      "level": "CRITICAL",
+      "message": "Taux quarantaine critique : 60.33%"
+    }
+  ],
+  "table_results": [
+    {
+      "table": "clients",
+      "db_name": "",
+      "success": true,
+      "metrics": {
+        "table": "clients",
+        "source_type": "source_file",
+        "db_name": "",
+        "timestamp": "2026-04-15T10:18:11.738212",
+        "rows": {
+          "total": 201,
+          "valid": 170,
+          "quarantined": 31,
+          "validity_rate": 84.58,
+          "quarantine_rate": 15.42
+        },
+        "completeness": {
+          "by_column": {
+            "customer_id": 99.5,
+            "CustomerName": 90.05,
+            "gender": 99.5,
+            "date_of_birth": 91.54,
+            "phone": 55.72,
+            "email": 87.06,
+            "location": 88.06,
+            "account_balance": 91.54,
+            "account_type": 99.5,
+            "kyc_status": 92.54,
+            "created_at": 91.04
+          },
+          "average": 89.64
+        },
+        "violations": {
+          "by_rule": {
+            "GEN-008": 60,
+            "GEN-001": 5,
+            "GEN-003": 7
+          },
+          "by_domain": {
+            "general": 72
+          },
+          "by_severity": {
+            "CRITIQUE": 67,
+            "IMPORTANT": 5,
+            "AVERTISSEMENT": 0
+          }
+        },
+        "precision_recall": {
+          "available": false,
+          "note": "Colonne _ground_truth absente"
+        },
+        "alerts": [
+          {
+            "level": "WARNING",
+            "message": "Taux quarantaine élevé : 15.42%"
+          }
+        ]
+      },
+      "alerts": [
+        {
+          "level": "WARNING",
+          "message": "Taux quarantaine élevé : 15.42%"
+        }
+      ],
+      "output_paths": {
+        "valid_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\clients\\processed_20260415_101811\\data.parquet",
+        "quarantine_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quarantine\\source_file\\clients\\quarantine_20260415_101811\\quarantine.parquet",
+        "quality_report": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quality_reports\\source_file\\clients_20260415_101811.json"
+      },
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\clients\\processed_20260415_101811\\data.parquet",
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\clients\\processed_20260415_101507",
+      "silver_ts": "20260415_101509",
+      "source_type": "source_file"
+    },
+    {
+      "table": "comptes_epargne",
+      "db_name": "",
+      "success": true,
+      "metrics": {
+        "table": "comptes_epargne",
+        "source_type": "source_file",
+        "db_name": "",
+        "timestamp": "2026-04-15T10:18:13.474223",
+        "rows": {
+          "total": 196,
+          "valid": 1,
+          "quarantined": 195,
+          "validity_rate": 0.51,
+          "quarantine_rate": 99.49
+        },
+        "completeness": {
+          "by_column": {
+            "account_id": 99.49,
+            "customer_id": 99.49,
+            "account_type": 91.84,
+            "balance": 91.84,
+            "profit_share": 69.39,
+            "interest_rate": 88.27,
+            "opened_date": 91.84,
+            "last_transaction_date": 91.33,
+            "phone_contact": 55.61,
+            "agency_code": 89.29,
+            "account_status": 93.37,
+            "nb_transactions": 79.08
+          },
+          "average": 86.74
+        },
+        "violations": {
+          "by_rule": {
+            "BNK-001": 195,
+            "BNK-011": 66,
+            "ISL-001": 20,
+            "BNK-012": 15
+          },
+          "by_domain": {
+            "banking": 276,
+            "islamic": 20
+          },
+          "by_severity": {
+            "CRITIQUE": 35,
+            "IMPORTANT": 261,
+            "AVERTISSEMENT": 0
+          }
+        },
+        "precision_recall": {
+          "available": false,
+          "note": "Colonne _ground_truth absente"
+        },
+        "alerts": [
+          {
+            "level": "CRITICAL",
+            "message": "Taux quarantaine critique : 99.49%"
+          }
+        ]
+      },
+      "alerts": [
+        {
+          "level": "CRITICAL",
+          "message": "Taux quarantaine critique : 99.49%"
+        }
+      ],
+      "output_paths": {
+        "valid_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\comptes_epargne\\processed_20260415_101813\\data.parquet",
+        "quarantine_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quarantine\\source_file\\comptes_epargne\\quarantine_20260415_101813\\quarantine.parquet",
+        "quality_report": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quality_reports\\source_file\\comptes_epargne_20260415_101813.json"
+      },
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\comptes_epargne\\processed_20260415_101813\\data.parquet",
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\comptes_epargne\\processed_20260415_101509",
+      "silver_ts": "20260415_101511",
+      "source_type": "source_file"
+    },
+    {
+      "table": "contracts",
+      "db_name": "",
+      "success": true,
+      "metrics": {
+        "table": "contracts",
+        "source_type": "source_file",
+        "db_name": "",
+        "timestamp": "2026-04-15T10:18:15.074328",
+        "rows": {
+          "total": 10000,
+          "valid": 10000,
+          "quarantined": 0,
+          "validity_rate": 100.0,
+          "quarantine_rate": 0.0
+        },
+        "completeness": {
+          "by_column": {
+            "contract_id": 100.0,
+            "client_id": 100.0,
+            "product_type": 100.0,
+            "financing_amount_tnd": 100.0,
+            "debt_like_amount_tnd": 66.52,
+            "total_assets_tnd": 66.57,
+            "status": 100.0
+          },
+          "average": 90.44
+        },
+        "violations": {
+          "by_rule": {},
+          "by_domain": {},
+          "by_severity": {
+            "CRITIQUE": 0,
+            "IMPORTANT": 0,
+            "AVERTISSEMENT": 0
+          }
+        },
+        "precision_recall": {
+          "available": false,
+          "note": "Colonne _ground_truth absente"
+        },
+        "alerts": []
+      },
+      "alerts": [],
+      "output_paths": {
+        "valid_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\contracts\\processed_20260415_101815\\data.parquet",
+        "quality_report": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quality_reports\\source_file\\contracts_20260415_101815.json"
+      },
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\contracts\\processed_20260415_101815\\data.parquet",
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\contracts\\processed_20260415_101511",
+      "silver_ts": "20260415_101513",
+      "source_type": "source_file"
+    },
+    {
+      "table": "credits_islamiques",
+      "db_name": "",
+      "success": true,
+      "metrics": {
+        "table": "credits_islamiques",
+        "source_type": "source_file",
+        "db_name": "",
+        "timestamp": "2026-04-15T10:18:16.387136",
+        "rows": {
+          "total": 150,
+          "valid": 8,
+          "quarantined": 142,
+          "validity_rate": 5.33,
+          "quarantine_rate": 94.67
+        },
+        "completeness": {
+          "by_column": {
+            "credit_id": 100.0,
+            "customer_id": 100.0,
+            "product_type": 100.0,
+            "amount": 92.0,
+            "taux_interet": 88.67,
+            "duration_months": 83.33,
+            "start_date": 92.0,
+            "end_date": 91.33,
+            "collateral_type": 81.33,
+            "profit_rate": 100.0,
+            "approved_by": 72.0,
+            "credit_status": 82.67
+          },
+          "average": 90.28
+        },
+        "violations": {
+          "by_rule": {
+            "BNK-008": 125,
+            "ISL-002": 22,
+            "BNK-007": 25
+          },
+          "by_domain": {
+            "banking": 150,
+            "islamic": 22
+          },
+          "by_severity": {
+            "CRITIQUE": 147,
+            "IMPORTANT": 25,
+            "AVERTISSEMENT": 0
+          }
+        },
+        "precision_recall": {
+          "available": false,
+          "note": "Colonne _ground_truth absente"
+        },
+        "alerts": [
+          {
+            "level": "CRITICAL",
+            "message": "Taux quarantaine critique : 94.67%"
+          }
+        ]
+      },
+      "alerts": [
+        {
+          "level": "CRITICAL",
+          "message": "Taux quarantaine critique : 94.67%"
+        }
+      ],
+      "output_paths": {
+        "valid_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\credits_islamiques\\processed_20260415_101816\\data.parquet",
+        "quarantine_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quarantine\\source_file\\credits_islamiques\\quarantine_20260415_101816\\quarantine.parquet",
+        "quality_report": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quality_reports\\source_file\\credits_islamiques_20260415_101816.json"
+      },
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\credits_islamiques\\processed_20260415_101816\\data.parquet",
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\credits_islamiques\\processed_20260415_101513",
+      "silver_ts": "20260415_101534",
+      "source_type": "source_file"
+    },
+    {
+      "table": "marche_sukuk",
+      "db_name": "",
+      "success": true,
+      "metrics": {
+        "table": "marche_sukuk",
+        "source_type": "source_file",
+        "db_name": "",
+        "timestamp": "2026-04-15T10:18:17.597101",
+        "rows": {
+          "total": 250,
+          "valid": 0,
+          "quarantined": 250,
+          "validity_rate": 0.0,
+          "quarantine_rate": 100.0
+        },
+        "completeness": {
+          "by_column": {
+            "symbol": 86.0,
+            "open_time": 75.2,
+            "close_time": 100.0,
+            "open": 85.6,
+            "high": 100.0,
+            "low": 100.0,
+            "close": 100.0,
+            "volume": 80.0,
+            "price_change": 75.2,
+            "percent_change": 80.0,
+            "market": 86.0,
+            "rating": 74.8
+          },
+          "average": 86.9
+        },
+        "violations": {
+          "by_rule": {
+            "GEN-007": 215,
+            "GEN-008": 105
+          },
+          "by_domain": {
+            "general": 320
+          },
+          "by_severity": {
+            "CRITIQUE": 105,
+            "IMPORTANT": 215,
+            "AVERTISSEMENT": 0
+          }
+        },
+        "precision_recall": {
+          "available": false,
+          "note": "Colonne _ground_truth absente"
+        },
+        "alerts": [
+          {
+            "level": "CRITICAL",
+            "message": "Taux quarantaine critique : 100.0%"
+          }
+        ]
+      },
+      "alerts": [
+        {
+          "level": "CRITICAL",
+          "message": "Taux quarantaine critique : 100.0%"
+        }
+      ],
+      "output_paths": {
+        "quarantine_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quarantine\\source_file\\marche_sukuk\\quarantine_20260415_101817\\quarantine.parquet",
+        "quality_report": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quality_reports\\source_file\\marche_sukuk_20260415_101817.json"
+      },
+      "gold_parquet_path": "",
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\marche_sukuk\\processed_20260415_101534",
+      "silver_ts": "20260415_101555",
+      "source_type": "source_file"
+    },
+    {
+      "table": "transactions",
+      "db_name": "",
+      "success": true,
+      "metrics": {
+        "table": "transactions",
+        "source_type": "source_file",
+        "db_name": "",
+        "timestamp": "2026-04-15T10:18:18.972688",
+        "rows": {
+          "total": 300,
+          "valid": 119,
+          "quarantined": 181,
+          "validity_rate": 39.67,
+          "quarantine_rate": 60.33
+        },
+        "completeness": {
+          "by_column": {
+            "transaction_id": 100.0,
+            "customer_id": 100.0,
+            "transaction_date": 91.67,
+            "transaction_amount": 91.67,
+            "transaction_type": 93.0,
+            "channel": 82.0,
+            "currency": 90.0,
+            "iban": 60.0,
+            "status": 91.0,
+            "notes": 80.0,
+            "timestamp_ms": 66.67
+          },
+          "average": 86.0
+        },
+        "violations": {
+          "by_rule": {
+            "BNK-001": 180,
+            "BNK-003": 4
+          },
+          "by_domain": {
+            "banking": 184
+          },
+          "by_severity": {
+            "CRITIQUE": 4,
+            "IMPORTANT": 180,
+            "AVERTISSEMENT": 0
+          }
+        },
+        "precision_recall": {
+          "available": false,
+          "note": "Colonne _ground_truth absente"
+        },
+        "alerts": [
+          {
+            "level": "CRITICAL",
+            "message": "Taux quarantaine critique : 60.33%"
+          }
+        ]
+      },
+      "alerts": [
+        {
+          "level": "CRITICAL",
+          "message": "Taux quarantaine critique : 60.33%"
+        }
+      ],
+      "output_paths": {
+        "valid_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\transactions\\processed_20260415_101818\\data.parquet",
+        "quarantine_parquet": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quarantine\\source_file\\transactions\\quarantine_20260415_101818\\quarantine.parquet",
+        "quality_report": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\quality_reports\\source_file\\transactions_20260415_101818.json"
+      },
+      "gold_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\gold\\validated\\source_file\\transactions\\processed_20260415_101818\\data.parquet",
+      "silver_parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\transactions\\processed_20260415_101555",
+      "silver_ts": "20260415_101614",
+      "source_type": "source_file"
+    }
+  ]
+}

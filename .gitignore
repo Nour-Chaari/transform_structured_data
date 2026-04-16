@@ -1,0 +1,8 @@
+#venv
+.venv311/
+
+# Grafana
+grafana/
+
+# Fichiers environnement
+.env

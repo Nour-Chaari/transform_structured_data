@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "source_type": "source_file",
+    "db_name": "",
+    "table_name": "comptes_epargne",
+    "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\comptes_epargne\\processed_20260415_101509",
+    "silver_ts": "20260415_101511",
+    "silver_row_count": 196,
+    "_silver_group_key": "source_file__comptes_epargne",
+    "_reason": "NOUVEAU"
+  },
+  "metrics": {
+    "table": "comptes_epargne",
+    "source_type": "source_file",
+    "db_name": "",
+    "timestamp": "2026-04-15T10:18:13.474223",
+    "rows": {
+      "total": 196,
+      "valid": 1,
+      "quarantined": 195,
+      "validity_rate": 0.51,
+      "quarantine_rate": 99.49
+    },
+    "completeness": {
+      "by_column": {
+        "account_id": 99.49,
+        "customer_id": 99.49,
+        "account_type": 91.84,
+        "balance": 91.84,
+        "profit_share": 69.39,
+        "interest_rate": 88.27,
+        "opened_date": 91.84,
+        "last_transaction_date": 91.33,
+        "phone_contact": 55.61,
+        "agency_code": 89.29,
+        "account_status": 93.37,
+        "nb_transactions": 79.08
+      },
+      "average": 86.74
+    },
+    "violations": {
+      "by_rule": {
+        "BNK-001": 195,
+        "BNK-011": 66,
+        "ISL-001": 20,
+        "BNK-012": 15
+      },
+      "by_domain": {
+        "banking": 276,
+        "islamic": 20
+      },
+      "by_severity": {
+        "CRITIQUE": 35,
+        "IMPORTANT": 261,
+        "AVERTISSEMENT": 0
+      }
+    },
+    "precision_recall": {
+      "available": false,
+      "note": "Colonne _ground_truth absente"
+    },
+    "alerts": [
+      {
+        "level": "CRITICAL",
+        "message": "Taux quarantaine critique : 99.49%"
+      }
+    ]
+  }
+}

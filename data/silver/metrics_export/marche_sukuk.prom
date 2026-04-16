@@ -1,0 +1,18 @@
+# HELP silver_rows_input_total Lignes lues depuis Bronze
+# TYPE silver_rows_input_total gauge
+silver_rows_input_total{table="marche_sukuk",source_type="source_file",pipeline="silver"} 250
+# HELP silver_rows_output_total Lignes valides écrites dans Silver
+# TYPE silver_rows_output_total gauge
+silver_rows_output_total{table="marche_sukuk",source_type="source_file",pipeline="silver"} 250
+# HELP silver_rows_quarantined_total Lignes en quarantaine
+# TYPE silver_rows_quarantined_total gauge
+silver_rows_quarantined_total{table="marche_sukuk",source_type="source_file",pipeline="silver"} 0
+# HELP silver_processing_duration_seconds Durée de traitement
+# TYPE silver_processing_duration_seconds gauge
+silver_processing_duration_seconds{table="marche_sukuk",source_type="source_file",pipeline="silver"} 20.933
+# HELP silver_success Succès du traitement (1=ok, 0=erreur)
+# TYPE silver_success gauge
+silver_success{table="marche_sukuk",source_type="source_file",pipeline="silver"} 1
+# HELP silver_last_run_timestamp_seconds Timestamp Unix du dernier run
+# TYPE silver_last_run_timestamp_seconds gauge
+silver_last_run_timestamp_seconds{table="marche_sukuk",source_type="source_file",pipeline="silver"} 1776248155

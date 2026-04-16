@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "source_type": "source_file",
+    "db_name": "",
+    "table_name": "credits_islamiques",
+    "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\credits_islamiques\\processed_20260415_101513",
+    "silver_ts": "20260415_101534",
+    "silver_row_count": 150,
+    "_silver_group_key": "source_file__credits_islamiques",
+    "_reason": "NOUVEAU"
+  },
+  "metrics": {
+    "table": "credits_islamiques",
+    "source_type": "source_file",
+    "db_name": "",
+    "timestamp": "2026-04-15T10:18:16.387136",
+    "rows": {
+      "total": 150,
+      "valid": 8,
+      "quarantined": 142,
+      "validity_rate": 5.33,
+      "quarantine_rate": 94.67
+    },
+    "completeness": {
+      "by_column": {
+        "credit_id": 100.0,
+        "customer_id": 100.0,
+        "product_type": 100.0,
+        "amount": 92.0,
+        "taux_interet": 88.67,
+        "duration_months": 83.33,
+        "start_date": 92.0,
+        "end_date": 91.33,
+        "collateral_type": 81.33,
+        "profit_rate": 100.0,
+        "approved_by": 72.0,
+        "credit_status": 82.67
+      },
+      "average": 90.28
+    },
+    "violations": {
+      "by_rule": {
+        "BNK-008": 125,
+        "ISL-002": 22,
+        "BNK-007": 25
+      },
+      "by_domain": {
+        "banking": 150,
+        "islamic": 22
+      },
+      "by_severity": {
+        "CRITIQUE": 147,
+        "IMPORTANT": 25,
+        "AVERTISSEMENT": 0
+      }
+    },
+    "precision_recall": {
+      "available": false,
+      "note": "Colonne _ground_truth absente"
+    },
+    "alerts": [
+      {
+        "level": "CRITICAL",
+        "message": "Taux quarantaine critique : 94.67%"
+      }
+    ]
+  }
+}

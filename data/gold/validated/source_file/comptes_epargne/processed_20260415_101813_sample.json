@@ -1,0 +1,25 @@
+[
+  {
+    "account_id": NaN,
+    "customer_id": NaN,
+    "account_type": NaN,
+    "balance": NaN,
+    "profit_share": NaN,
+    "interest_rate": NaN,
+    "opened_date": NaN,
+    "last_transaction_date": NaN,
+    "phone_contact": NaN,
+    "agency_code": NaN,
+    "account_status": NaN,
+    "nb_transactions": NaN,
+    "_source_type": "source_file",
+    "_source_name": "source_file/comptes_epargne",
+    "_table_name": "comptes_epargne",
+    "_processed_at": "2026-04-15T10:15:11.623136",
+    "_validation_errors": "[]",
+    "_violation_count": 0,
+    "_max_severity": "NONE",
+    "_is_quarantined": false,
+    "_quarantine_reason": NaN
+  }
+]

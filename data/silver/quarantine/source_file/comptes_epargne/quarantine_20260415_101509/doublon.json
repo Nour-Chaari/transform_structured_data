@@ -1,0 +1,34 @@
+{
+  "reason": "doublon",
+  "count": 2,
+  "rows": [
+    {
+      "account_id": NaN,
+      "customer_id": NaN,
+      "account_type": NaN,
+      "balance": NaN,
+      "profit_share": NaN,
+      "interest_rate": NaN,
+      "opened_date": NaN,
+      "last_transaction_date": NaN,
+      "phone_contact": NaN,
+      "agency_code": NaN,
+      "account_status": NaN,
+      "nb_transactions": NaN
+    },
+    {
+      "account_id": NaN,
+      "customer_id": NaN,
+      "account_type": NaN,
+      "balance": NaN,
+      "profit_share": NaN,
+      "interest_rate": NaN,
+      "opened_date": NaN,
+      "last_transaction_date": NaN,
+      "phone_contact": NaN,
+      "agency_code": NaN,
+      "account_status": NaN,
+      "nb_transactions": NaN
+    }
+  ]
+}

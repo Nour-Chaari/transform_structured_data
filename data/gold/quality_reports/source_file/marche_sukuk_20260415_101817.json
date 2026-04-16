@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "source_type": "source_file",
+    "db_name": "",
+    "table_name": "marche_sukuk",
+    "parquet_path": "C:\\Users\\chaar\\OneDrive\\Bureau\\transform_structured_data\\data\\silver\\source_file\\marche_sukuk\\processed_20260415_101534",
+    "silver_ts": "20260415_101555",
+    "silver_row_count": 250,
+    "_silver_group_key": "source_file__marche_sukuk",
+    "_reason": "NOUVEAU"
+  },
+  "metrics": {
+    "table": "marche_sukuk",
+    "source_type": "source_file",
+    "db_name": "",
+    "timestamp": "2026-04-15T10:18:17.597101",
+    "rows": {
+      "total": 250,
+      "valid": 0,
+      "quarantined": 250,
+      "validity_rate": 0.0,
+      "quarantine_rate": 100.0
+    },
+    "completeness": {
+      "by_column": {
+        "symbol": 86.0,
+        "open_time": 75.2,
+        "close_time": 100.0,
+        "open": 85.6,
+        "high": 100.0,
+        "low": 100.0,
+        "close": 100.0,
+        "volume": 80.0,
+        "price_change": 75.2,
+        "percent_change": 80.0,
+        "market": 86.0,
+        "rating": 74.8
+      },
+      "average": 86.9
+    },
+    "violations": {
+      "by_rule": {
+        "GEN-007": 215,
+        "GEN-008": 105
+      },
+      "by_domain": {
+        "general": 320
+      },
+      "by_severity": {
+        "CRITIQUE": 105,
+        "IMPORTANT": 215,
+        "AVERTISSEMENT": 0
+      }
+    },
+    "precision_recall": {
+      "available": false,
+      "note": "Colonne _ground_truth absente"
+    },
+    "alerts": [
+      {
+        "level": "CRITICAL",
+        "message": "Taux quarantaine critique : 100.0%"
+      }
+    ]
+  }
+}

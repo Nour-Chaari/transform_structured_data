@@ -1,0 +1,226 @@
+CustomerID,CustomerName,CustGender,CustomerDOB,phone,email,CustLocation,CustAccountBalance,account_type,kyc_status,created_at
+C1000,NaN,Male,1995-01-06,20123456,NULL,nd,370359.81,MUDARABA,actif,25-11-1988
+C1158,Inès Chaari,Female,08/12/1989,+216.20.123.456,inès.chaari@banqueislamique.tn,Kairouan,86832.16 TND,ijara,Suspendu,07/02/19
+C1076,Tarek Sfaxi,F,20070305,0 50 123 456,tarek.sfaxi@banqueislamique.tn,Gafsa,$106138.71,murabaha,cloture,"August 3, 1996"
+C1052,Sonia Trabelsi,MALE,20080215,not available,sonia.trabelsi@banqueislamique.tn,Ben Arous,$167660.61,IJARA,inactif,"September 11, 2018"
+C1038,Omar Jebali,m,04/02/2018,00216 31 234 567,omar.jebali@banqueislamique.tn,Ariana,280497.34 TND,Murabaha,inactif,17/05/88
+C01181,Walid Khlifi,Femme,26/10/2019,+216 20 123 456,walid.khlifi@banqueislamique.tn,Bizerte,"61,011.99",MURABAHA,,20031101
+C1096,Nour Nasri,Femme,2006-01-31,93 456 789,NA,Gabès,335099.74,MURABAHA,true,18-10-1999
+1089,Hajer Trabelsi,m,13/02/85,ABCDEFGH,hajer.trabelsi@banqueislamique.tn,Ben Arous,235009.25€,Murabaha,clôturé,1995-05
+C01149,Bilel Nasri,masculin,09/01/04,71 234 567,bilel.nasri@banqueislamique.tn,Gafsa,207150.45€,mudaraba,bloque,2018-11
+C01133,Ahmed Chaari,féminin,26/01/2001,2012345,ahmed.chaari@banqueislamique.tn,Kairouan,"294,467.58",murabaha,closed,19921025
+ C1138 ,Tarek Bouzid,male,1998,80123456,tarek.bouzid@banqueislamique.tn,Ben Arous,215156.640000,salam,true,NULL
+C1054,Mohamed Nasri,M,2013,20123456,mohamed.nasri@banqueislamique.tn,ND,348207.490000,istisna,true,NaN
+c1083,Hajer Chaari,1,1987/01/16,60123456,hajer.chaari@banqueislamique.tn,Bizerte,"348738.95,",IJARA,,08/12/2013
+C01181,Walid Khlifi,Femme,26/10/2019,+216 20 123 456,walid.khlifi@banqueislamique.tn,Bizerte,"61,011.99",MURABAHA,,20031101
+C01005,Inès Bouzid,Female,09/08/16,71 234 567,inès.bouzid@banqueislamique.tn,Kairouan,386556.86€,ijara,clôturé,1995-06
+1169,Walid Trabelsi,0,28/01/2015,2012345,walid.trabelsi@banqueislamique.tn,Gabès,"9,213.45",mudaraba,ACTIF,19930201
+C01029,Karim Ben Ali,H,17/03/11,60123456,karim.ben.ali@banqueislamique.tn,Monastir,78800.62€,murabaha,ACTIF,1988-08
+C1088,NULL,M,20190320,not available,nan,Bizerte,$330248.03,MUDARABA,Suspendu,"October 5, 1995"
+ C1178 ,Walid Sfaxi,F,  2002-04-28  ,na,walid.sfaxi@banqueislamique.tn,Kairouan,NULL,ijara,inactif,24/08/2022
+C1124,Bilel Bouzid,Female,20211122,na,bilel.bouzid@banqueislamique.tn,Sfax,$337450.79,istisna,true,"February 15, 1986"
+,,,,,,,,,,
+C01197,Mohamed Bouzid,homme,01/10/08,ABCDEFGH,mohamed.bouzid@banqueislamique.tn,Gabès,324815.41€,Murabaha,ACTIF,1990-02
+C1167,Omar Sfaxi,féminin,2011/02/21,71 234 567,omar.sfaxi@banqueislamique.tn,Gabès,"155184.85,",MURABAHA,,05/01/2016
+ C1114 ,Amira Nasri,H,2011,93 456 789,amira.nasri@banqueislamique.tn,Gafsa,318988.530000,musharaka,Actif,nd
+ C1090 ,Rania Nasri,Female,1995,20123456,rania.nasri@banqueislamique.tn,--,312566.500000,MURABAHA,cloture,nan
+C1084,Asma Trabelsi,0,1985-07-20,80123456,asma.trabelsi@banqueislamique.tn,Gafsa,239409.23,WADIAH,actif,09-04-1993
+C01173,Mehdi Bouzid,M,02/10/18,60123456,mehdi.bouzid@banqueislamique.tn,Gafsa,117078.07€,IJARA,clôturé,1998-11
+C1095,Bilel Bouzid,homme,2019/03/26,71 234 567,bilel.bouzid@banqueislamique.tn,Gafsa,"259530.02,",murabaha,1,06/24/1997
+C1143,n/a,female,2000/10/10,ABCDEFGH,fatma.jebali@banqueislamique.tn,Monastir,"106448.13,",SALAM,suspendu,08/19/2006
+c1019,Rania Khlifi,male,"February 25, 2014",+216 20 123 456,rania.khlifi@banqueislamique.tn,Monastir,225797,mudaraba,clôturé,  1995-01-30  
+1113,Amira Zouari,Femme,22/05/10,71 234 567,amira.zouari@banqueislamique.tn,Sousse,85074.83€,istisna,ACTIF,2012-05
+1009,Tarek Jebali,f,#N/A,00000000,tarek.jebali@banqueislamique.tn,NA,106392.01,MURABAHA,bloque,2002-10-01
+C1102,Leila Chaari,Male,2017,80123456,leila.chaari@banqueislamique.tn,Bizerte,207803.620000,ISTISNA,Suspendu,NaN
+C01021,Amira Trabelsi,m,NA,216 40 123 456,amira.trabelsi@banqueislamique.tn,Monastir,119078.52,musharaka,closed,2006-10-11
+ C1138 ,Tarek Bouzid,male,1998,80123456,tarek.bouzid@banqueislamique.tn,Ben Arous,215156.640000,salam,true,NULL
+C1168,Tarek Chaari,1,2016-10-18,93 456 789,MISSING,Ariana,321782.28,SALAM,actif,24-06-2021
+1161,Walid Trabelsi,F,18/09/05,ABCDEFGH,walid.trabelsi@banqueislamique.tn,Tunis,184431.93€,IJARA,closed,1988-06
+C1135,Leila Nasri,0,09-12-1994,00000000,leila.nasri@banqueislamique.tn,nr,TND 391635.18,salam,bloque,2008
+C1140,Leila Sfaxi,m,1999-01,+216.20.123.456,leila.sfaxi@banqueislamique.tn,Gabès,  476800.90  ,istisna,actif,2006/04/11
+ C1194 ,Fatma Trabelsi,female,08/07/2013,+216.20.123.456,fatma.trabelsi@banqueislamique.tn,Monastir,400567.88 TND,mudaraba,true,06/03/92
+1017,Mohamed Nasri,Male,08/02/88,ABCDEFGH,mohamed.nasri@banqueislamique.tn,Sousse,64282.89€,WADIAH,suspendu,2009-08
+C1191,Asma Nasri,m,2020/10/06,60123456,asma.nasri@banqueislamique.tn,Sfax,"363567.95,",Ijara,bloque,04/26/2004
+C1028,Hajer Nasri,Femme,19930709,10123456,hajer.nasri@banqueislamique.tn,Tunis,$289632.23,Murabaha,actif,"September 26, 1987"
+C1160,Karim Sfaxi,female,20040923,UNKNOWN,undefined,Bizerte,$398185.21,Murabaha,cloture,"July 10, 1987"
+C1087,Amira Zouari,male,18-03-2005,20 123 456,amira.zouari@banqueislamique.tn,Ben Arous,TND 495016.63,istisna,suspendu,2010
+C1004,Bilel Ben Ali,m,20050811,0 50 123 456,bilel.ben.ali@banqueislamique.tn,Ariana,$39492.22,MUDARABA,Suspendu,"March 16, 2022"
+c1099,na,féminin,06-12-2012,00000000,fatma.maatoug@banqueislamique.tn,not available,TND 221076.27,salam,ACTIF,1994
+C1044,nan,homme,2002-11,201234567,amira.ben.ali@banqueislamique.tn,Sfax,  483447.86  ,mudaraba,Actif,2000/10/02
+C1068,Ahmed Bouzid,Male,1995-09,+216.20.123.456,ahmed.bouzid@banqueislamique.tn,Sfax,  282028.39  ,Murabaha,true,2005/11/11
+ C1098 ,Karim Trabelsi,masculin,02/18/2003,201234567,karim.trabelsi@banqueislamique.tn,Tunis,328864.43 TND,wadiah,actif,22/09/05
+ C1130 ,Mehdi Trabelsi,Femme,  1994-07-08  ,0 50 123 456,mehdi.trabelsi@banqueislamique.tn,Ben Arous, ,mudaraba,Suspendu,17/04/2020
+ C1066 ,-,1,2002,80123456,mehdi.sfaxi@banqueislamique.tn,Ariana,126210.540000,Ijara,inactif,
+c1003,Karim Jebali,M,29-08-1994,216 40 123 456,karim.jebali@banqueislamique.tn,Sfax,TND 46463.65,Murabaha,suspendu,2001
+c1163,Mehdi Bouzid,homme,"June 12, 1993",+216 20 123 456,mehdi.bouzid@banqueislamique.tn,Gafsa,250733,mudaraba,bloque,  2005-03-18  
+1081,Karim Trabelsi,masculin,-,00000000,karim.trabelsi@banqueislamique.tn,NONE,95851.33,MUDARABA,1,2006-09-21
+c1075,Bilel Sfaxi,female,06-01-1996,216 40 123 456,bilel.sfaxi@banqueislamique.tn,Bizerte,TND 440827.43,WADIAH,clôturé,2018
+1025,Mehdi Maatoug,F,20/05/1988,2012345,mehdi.maatoug@banqueislamique.tn,Monastir,"49,044.57",WADIAH,1,20090401
+C1048,Youssef Sfaxi,féminin,1988-02-21,80123456,#NA,Gabès,331727.40,istisna,cloture,15-04-2017
+C01181,Walid Khlifi,Femme,26/10/2019,+216 20 123 456,walid.khlifi@banqueislamique.tn,Bizerte,"61,011.99",MURABAHA,,20031101
+C1182,Mehdi Trabelsi,H,07/14/2022,00216 31 234 567,mehdi.trabelsi@banqueislamique.tn,Monastir,8316.03 TND,MURABAHA,actif,18/10/10
+c1155,Leila Khlifi,male,1999/07/28,60123456,leila.khlifi@banqueislamique.tn,Ben Arous,"230102.44,",murabaha,ACTIF,03/26/2001
+C1056,Mehdi Ben Ali,Female,1996-03,00216 31 234 567,None,Gafsa,  333822.11  ,salam,actif,2011/09/17
+C1008,Hajer Maatoug,F,1999-07,201234567,-,Tunis,  114601.13  ,mudaraba,BLOCKED,2021/02/10
+C1055,-,m,"July 18, 2019",+216 20 123 456,omar.ben.ali@banqueislamique.tn,Ariana,109498,musharaka,,  2016-03-20  
+c1107,Asma Khlifi,Female,2014/10/09,ABCDEFGH,asma.khlifi@banqueislamique.tn,Sousse,"247714.79,",istisna,bloque,08/31/1990
+1001,Nour Ben Ali,MALE,16/03/1989,+216 20 123 456,nour.ben.ali@banqueislamique.tn,Monastir,"301,049.16",murabaha,ACTIF,19931202
+C01069,Bilel Sfaxi,MALE,#NA,20 123 456,bilel.sfaxi@banqueislamique.tn,Sfax,388918.16,Murabaha,,1998-12-15
+C1092,Rania Bouzid,female,2021-12,00216 31 234 567,rania.bouzid@banqueislamique.tn,Gafsa,  62264.39  ,MUDARABA,BLOCKED,1998/08/23
+C1080,Nour Zouari,H,2000-10,201234567,N/A,Bizerte,  125776.70  ,Ijara,inactif,2017/05/10
+C1036,Omar Jebali,male,2012-02-18,20123456,omar.jebali@banqueislamique.tn,NA,101878.30,IJARA,BLOCKED,06-04-2023
+C1108,Karim Trabelsi,FEMALE,2022-11-28,20123456,karim.trabelsi@banqueislamique.tn,missing,455229.79,WADIAH,inactif,29-05-2017
+C1111,Amira Jebali,f,02-07-2018,216 40 123 456,amira.jebali@banqueislamique.tn,Sfax,TND 380208.81,ijara,,1989
+C01045,Walid Khlifi,Femme,MISSING,00000000,walid.khlifi@banqueislamique.tn,,57759.34,mudaraba,suspendu,1993-01-04
+c1027,Sonia Khlifi,homme,07-07-2002,00000000,sonia.khlifi@banqueislamique.tn,--,TND 227558.68,murabaha,,2016
+,,,,,,,,,,
+ C1058 ,Mehdi Jebali,female,  1996-02-03  ,0 50 123 456,mehdi.jebali@banqueislamique.tn,Bizerte,missing,wadiah,Actif,27/09/2006
+C01165,n/a,H,NIL,216 40 123 456,sonia.sfaxi@banqueislamique.tn,Gabès,339480.97,Ijara,1,2020-05-27
+1193,Sonia Nasri,FEMALE,21/01/2005,(+216) 20-123-456,sonia.nasri@banqueislamique.tn,Gabès,"307,464.26",Ijara,1,19970426
+C1152,Bilel Jebali,0,1990-05,201234567,nr,Ariana,  87929.83  ,Ijara,true,2008/11/21
+ C1002 ,Hajer Khlifi,male,02/24/2005,00216 31 234 567,hajer.khlifi@banqueislamique.tn,Tunis,379427.80 TND,ijara,Actif,26/04/16
+c1171,Hajer Zouari,MALE,11-09-2014,00000000,hajer.zouari@banqueislamique.tn,#NA,TND 65611.42,murabaha,suspendu,1991
+1153,Amira Zouari,Male,nd,00000000,amira.zouari@banqueislamique.tn,na,36130.54,salam,,1986-11-25
+C01085,Bilel Nasri,Male,17/11/2021,(+216) 20-123-456,bilel.nasri@banqueislamique.tn,Gafsa,"37,133.68",MURABAHA,ACTIF,20151017
+C1198,nil,Femme,2010,20123456,sonia.nasri@banqueislamique.tn,-,130218.860000,salam,Actif,#NA
+C01109,Nour Chaari,female,23/01/2006,+216 20 123 456,nour.chaari@banqueislamique.tn,Gabès,"311,667.37",MURABAHA,1,20140224
+C1063,Hajer Bouzid,H,23-11-1994,00000000,hajer.bouzid@banqueislamique.tn,N/A,TND 217974.40,musharaka,closed,2002
+C1118,Fatma Bouzid,0,  2007-04-14  ,10123456,fatma.bouzid@banqueislamique.tn,Kairouan,na,MUDARABA,cloture,29/10/1994
+C1024,Tarek Sfaxi,female,1989-11-26,93 456 789,nan,Monastir,224361.91,wadiah,inactif,26-03-1993
+c1139,Hajer Maatoug,M,"April 4, 2005",(+216) 20-123-456,hajer.maatoug@banqueislamique.tn,Gabès,413726,istisna,,  2003-08-30  
+1073,Asma Trabelsi,Female,01/04/2001,+216 20 123 456,asma.trabelsi@banqueislamique.tn,Gafsa,"353,683.59",istisna,suspendu,19921125
+C1172,Sonia Bouzid,male,19920605,10123456,sonia.bouzid@banqueislamique.tn,Tunis,$205488.22,wadiah,Suspendu,"April 12, 2017"
+1145,Hajer Ben Ali,f,05/07/2014,+216 20 123 456,hajer.ben.ali@banqueislamique.tn,Bizerte,"14,573.70",SALAM,clôturé,20160710
+C1100,Hajer Chaari,1,19971203,10123456,hajer.chaari@banqueislamique.tn,Gafsa,$60800.90,musharaka,Actif,"April 24, 2012"
+C1142,Hajer Zouari,FEMALE,  2015-01-21  ,NIL,hajer.zouari@banqueislamique.tn,Gabès,-,Ijara,Actif,22/12/2003
+C1078,Hajer Maatoug,homme,2006,93 456 789,hajer.maatoug@banqueislamique.tn,Gafsa,224142.460000,MUDARABA,BLOCKED,n/a
+1049,Walid Jebali,1,28/04/2003,(+216) 20-123-456,walid.jebali@banqueislamique.tn,Bizerte,"277,250.80",mudaraba,closed,20031111
+C01037,Walid Nasri,M,15/12/2022,+216 20 123 456,walid.nasri@banqueislamique.tn,Ariana,"414,691.11",IJARA,bloque,19850228
+c1179,Karim Chaari,f,1986/09/20,ABCDEFGH,karim.chaari@banqueislamique.tn,Gafsa,"348066.39,",Murabaha,1,01/15/2019
+C1012,Nour Bouzid,H,2002-04-06,80123456,nour.bouzid@banqueislamique.tn,Gafsa,264604.26,MURABAHA,true,08-07-1985
+1121,na,male,24/10/2008,(+216) 20-123-456,omar.zouari@banqueislamique.tn,Sousse,"128,559.35",musharaka,bloque,20060813
+1177,Omar Khlifi,female,?,20 123 456,omar.khlifi@banqueislamique.tn,Gabès,465242.92,MURABAHA,bloque,1987-05-23
+ C1170 ,Karim Nasri,Male,03/01/1995,201234567,karim.nasri@banqueislamique.tn,Sfax,147966.47 TND,ijara,Actif,16/07/89
+ C1034 ,Inès Jebali,Male,  2004-08-28  ,MISSING,inès.jebali@banqueislamique.tn,Bizerte,--,Murabaha,cloture,03/05/2014
+ C1130 ,Mehdi Trabelsi,Femme,  1994-07-08  ,0 50 123 456,mehdi.trabelsi@banqueislamique.tn,Ben Arous, ,mudaraba,Suspendu,17/04/2020
+C01125,Hajer Sfaxi,FEMALE,14/05/12,ABCDEFGH,hajer.sfaxi@banqueislamique.tn,Sfax,317738.42€,musharaka,,2016-06
+C1030,Mohamed Bouzid,masculin,1995,80123456,mohamed.bouzid@banqueislamique.tn,Ben Arous,123183.050000,MURABAHA,Actif,#NA
+C01117,Inès Bouzid,1,n/a,00000000,inès.bouzid@banqueislamique.tn,?,329149.08,IJARA,clôturé,1985-05-13
+C01013,Leila Zouari,masculin,20/12/1996,(+216) 20-123-456,leila.zouari@banqueislamique.tn,Gabès,"55,864.93",wadiah,,19920205
+C1071,Amira Trabelsi,M,2019/08/27,ABCDEFGH,amira.trabelsi@banqueislamique.tn,Ben Arous,"402783.43,",MUDARABA,ACTIF,05/22/2010
+1065,Ahmed Trabelsi,féminin,24/03/04,60123456,ahmed.trabelsi@banqueislamique.tn,Sousse,25237.29€,mudaraba,bloque,1999-09
+C1047,Youssef Jebali,masculin,2016/10/17,60123456,youssef.jebali@banqueislamique.tn,Monastir,"462795.03,",murabaha,clôturé,10/24/2015
+1097,Asma Jebali,H,19/12/2002,2012345,asma.jebali@banqueislamique.tn,Monastir,"18,444.90",mudaraba,,19990210
+ C1170 ,Karim Nasri,Male,03/01/1995,201234567,karim.nasri@banqueislamique.tn,Sfax,147966.47 TND,ijara,Actif,16/07/89
+C1031,Mohamed Khlifi,féminin,"March 8, 2011",(+216) 20-123-456,mohamed.khlifi@banqueislamique.tn,Gabès,467359,mudaraba,suspendu,  2015-01-16  
+C1044,nan,homme,2002-11,201234567,amira.ben.ali@banqueislamique.tn,Sfax,  483447.86  ,mudaraba,Actif,2000/10/02
+C1190,Karim Jebali,M,  2020-11-09  ,10123456,karim.jebali@banqueislamique.tn,Ariana,nil,MURABAHA,BLOCKED,17/03/2000
+C01093,Tarek Jebali,F,UNKNOWN,216 40 123 456,tarek.jebali@banqueislamique.tn,Sfax,299058.53,salam,bloque,2017-12-13
+C1120,Rania Nasri,MALE,2001-05-14,80123456,null,Bizerte,163426.89,murabaha,BLOCKED,17-11-1992
+c1091,Nour Trabelsi,FEMALE,"February 1, 1995",+216 20 123 456,nour.trabelsi@banqueislamique.tn,Bizerte,413332,salam,closed,  1987-09-05  
+C1180,Asma Nasri,homme,1988-07-22,20123456,asma.nasri@banqueislamique.tn,nan,417498.05,SALAM,true,16-08-2017
+1129,Amira Sfaxi,homme,na,216 40 123 456,amira.sfaxi@banqueislamique.tn,Gabès,30368.99,MURABAHA,suspendu,1993-07-07
+c1131,Amira Chaari,H,2010/04/30,71 234 567,amira.chaari@banqueislamique.tn,Monastir,"103657.97,",wadiah,clôturé,06/22/2021
+1137,Karim Bouzid,MALE,13/12/87,60123456,karim.bouzid@banqueislamique.tn,Ben Arous,316575.05€,Murabaha,1,2016-12
+,,,,,,,,,,
+ C1026 ,Ahmed Trabelsi,f,10/21/2018,201234567,ahmed.trabelsi@banqueislamique.tn,Ariana,242872.00 TND,musharaka,true,28/12/02
+c1059,Amira Jebali,F,1988/06/23,71 234 567,amira.jebali@banqueislamique.tn,Kairouan,"135930.38,",ISTISNA,suspendu,03/25/2009
+C01061,Mehdi Khlifi,homme,12/04/1994,2012345,mehdi.khlifi@banqueislamique.tn,Ariana,"452,428.76",murabaha,clôturé,20160314
+,,,,,,,,,,
+C1112,Sonia Jebali,homme,19860420,0 50 123 456,--,Tunis,$146754.55,musharaka,actif,"April 27, 2004"
+C1040,Inès Ben Ali,FEMALE,20010119,0 50 123 456,NaN,Sfax,$176903.95,musharaka,true,"March 26, 2003"
+C1015,Walid Bouzid,1,10-11-1991,20 123 456,walid.bouzid@banqueislamique.tn,Sousse,TND 269735.58,ijara,ACTIF,2008
+C1192,Sonia Zouari,Female,1999-05-30,80123456,NA,Bizerte,153317.28,IJARA,inactif,12-03-2017
+C1116,Nour Jebali,féminin,2022-12,201234567,nour.jebali@banqueislamique.tn,Ariana,  426682.40  ,ISTISNA,Suspendu,1995/08/23
+C1076,Tarek Sfaxi,F,20070305,0 50 123 456,tarek.sfaxi@banqueislamique.tn,Gafsa,$106138.71,murabaha,cloture,"August 3, 1996"
+C1103,Mehdi Zouari,MALE,"March 17, 2002",(+216) 20-123-456,mehdi.zouari@banqueislamique.tn,Monastir,373171,Murabaha,clôturé,  1988-02-18  
+C1062,Tarek Nasri,Femme,10/12/2000,201234567,tarek.nasri@banqueislamique.tn,Ariana,426738.63 TND,murabaha,cloture,19/10/03
+c1123,Tarek Zouari,m,19-01-1989,20 123 456,tarek.zouari@banqueislamique.tn,Tunis,TND 132302.84,Ijara,1,2005
+C1159,Mohamed Chaari,FEMALE,03-03-2013,20 123 456,mohamed.chaari@banqueislamique.tn,Ben Arous,TND 379962.59,wadiah,clôturé,2015
+ C1074 ,Walid Jebali,FEMALE,04/03/2021,00216 31 234 567,walid.jebali@banqueislamique.tn,Gafsa,232490.40 TND,SALAM,Suspendu,17/10/17
+C1127,Tarek Nasri,F,"January 29, 2015",+216 20 123 456,tarek.nasri@banqueislamique.tn,Monastir,209621,Ijara,ACTIF,  2017-08-05  
+C1040,Inès Ben Ali,FEMALE,20010119,0 50 123 456,NaN,Sfax,$176903.95,musharaka,true,"March 26, 2003"
+ C1106 ,Karim Maatoug,m,  1995-09-18  ,nil,karim.maatoug@banqueislamique.tn,Kairouan,NIL,MUDARABA,BLOCKED,17/12/1986
+C01053,Rania Maatoug,male,07/12/93,ABCDEFGH,rania.maatoug@banqueislamique.tn,Tunis,122496.79€,wadiah,1,2012-06
+c1067,Hajer Ben Ali,0,"January 22, 1995",(+216) 20-123-456,hajer.ben.ali@banqueislamique.tn,Tunis,377141,Ijara,1,  1993-12-11  
+c1011,None,Femme,2007/11/10,60123456,tarek.sfaxi@banqueislamique.tn,Tunis,"430565.34,",ijara,1,02/23/2013
+C1166,Karim Trabelsi,masculin,  1989-03-29  ,0 50 123 456,karim.trabelsi@banqueislamique.tn,Ariana,nr,Ijara,true,15/03/2023
+C1007,Mohamed Bouzid,female,"September 4, 1992",2012345,mohamed.bouzid@banqueislamique.tn,Kairouan,81784,mudaraba,closed,  1997-02-09  
+ C1010 ,Mehdi Chaari,homme,  1991-04-07  ,10123456,mehdi.chaari@banqueislamique.tn,Monastir,nr,IJARA,inactif,23/03/2011
+C1144,Leila Sfaxi,F,2009-12-14,20123456,-,N/A,287092.59,WADIAH,Suspendu,01-04-2004
+C1086,Omar Chaari,MALE,04/01/2010,+216.20.123.456,omar.chaari@banqueislamique.tn,Kairouan,59313.94 TND,wadiah,Actif,02/09/03
+ C1154 ,null,MALE,  1999-01-17  ,10123456,ahmed.nasri@banqueislamique.tn,Ben Arous,not available,musharaka,actif,27/09/2003
+C1175,Walid Khlifi,Female,"August 23, 2021",(+216) 20-123-456,walid.khlifi@banqueislamique.tn,Ben Arous,69285,Murabaha,closed,  1987-05-05  
+C1148,Karim Bouzid,H,19881023,0 50 123 456,karim.bouzid@banqueislamique.tn,Sousse,$377242.50,SALAM,BLOCKED,"March 27, 2015"
+C1151,Amira Khlifi,1,"June 17, 1987",2012345,amira.khlifi@banqueislamique.tn,Bizerte,472667,SALAM,1,  1991-02-27  
+c1043,Tarek Ben Ali,f,"February 11, 2006",2012345,tarek.ben.ali@banqueislamique.tn,Gafsa,174894,WADIAH,ACTIF,  2020-09-04  
+c1179,Karim Chaari,f,1986/09/20,ABCDEFGH,karim.chaari@banqueislamique.tn,Gafsa,"348066.39,",Murabaha,1,01/15/2019
+C1023,Nour Sfaxi,FEMALE,2003/06/11,71 234 567,nour.sfaxi@banqueislamique.tn,Tunis,"336714.94,",istisna,bloque,06/01/1989
+C1136,Mehdi Ben Ali,Male,20060627,10123456,nd,Sfax,$245185.40,murabaha,inactif,"April 19, 1988"
+C01157,Amira Sfaxi,m,17/07/1992,(+216) 20-123-456,amira.sfaxi@banqueislamique.tn,Sfax,"265,349.35",wadiah,suspendu,20191027
+C01189,Hajer Nasri,male,-,00000000,hajer.nasri@banqueislamique.tn,nan,143126.84,IJARA,closed,1987-02-23
+ C1186 ,Leila Bouzid,0,2018,93 456 789,leila.bouzid@banqueislamique.tn,Tunis,176214.290000,MUDARABA,Suspendu,not available
+C1070,Ahmed Jebali,male,  2015-05-21  ,nil,ahmed.jebali@banqueislamique.tn,Kairouan,ND,SALAM,actif,05/04/2022
+1185,Tarek Sfaxi,1,11/07/18,71 234 567,tarek.sfaxi@banqueislamique.tn,Sfax,172466.77€,IJARA,suspendu,2014-06
+ C1162 ,Mohamed Bouzid,f,2007,20123456,mohamed.bouzid@banqueislamique.tn,#N/A,277202.750000,SALAM,BLOCKED, 
+ C1050 ,Tarek Chaari,0,07/13/2010,+216.20.123.456,tarek.chaari@banqueislamique.tn,Monastir,416879.21 TND,SALAM,BLOCKED,14/11/97
+C1064,Tarek Chaari,masculin,20051219,10123456,MISSING,Tunis,$453473.74,WADIAH,BLOCKED,"April 26, 2010"
+C1020,Karim Ben Ali,M,2009-11,00216 31 234 567,karim.ben.ali@banqueislamique.tn,Kairouan,  3694.70  ,SALAM,cloture,2013/04/23
+C1072,Fatma Sfaxi,m,2004-03-20,20123456,null,missing,323806.87,salam,Actif,10-02-2023
+C1176,NULL,FEMALE,2016-11,+216.20.123.456,n/a,Sfax,  381582.10  ,salam,BLOCKED,2005/02/26
+c1187,UNKNOWN,Male,"May 4, 2013",2012345,sonia.nasri@banqueislamique.tn,Sousse,31643,MUDARABA,clôturé,  2005-07-13  
+1057,Mehdi Bouzid,FEMALE,missing,216 40 123 456,mehdi.bouzid@banqueislamique.tn,Monastir,223012.21,WADIAH,ACTIF,2018-05-12
+ C1082 ,Walid Bouzid,féminin,  1989-07-06  ,10123456,walid.bouzid@banqueislamique.tn,Bizerte,NONE,IJARA,true,24/07/1998
+1041,Omar Maatoug,female,16/04/92,71 234 567,omar.maatoug@banqueislamique.tn,Sousse,440719.96€,WADIAH,,1993-01
+ C1042 ,Karim Khlifi,F,2015,93 456 789,karim.khlifi@banqueislamique.tn,Kairouan,133476.170000,wadiah,actif,NULL
+C01077,N/A,f,07/12/09,71 234 567,bilel.bouzid@banqueislamique.tn,Kairouan,42897.92€,MUDARABA,closed,2003-03
+C1039,Omar Zouari,Female,10-06-2022,216 40 123 456,omar.zouari@banqueislamique.tn,Monastir,TND 74132.08,murabaha,1,1986
+C1188,Rania Maatoug,MALE,2020-06,201234567,rania.maatoug@banqueislamique.tn,Gabès,  466692.15  ,murabaha,cloture,2002/11/12
+C1031,Mohamed Khlifi,féminin,"March 8, 2011",(+216) 20-123-456,mohamed.khlifi@banqueislamique.tn,Gabès,467359,mudaraba,suspendu,  2015-01-16  
+C1014,Ahmed Jebali,féminin,03/07/2019,+216.20.123.456,ahmed.jebali@banqueislamique.tn,Sfax,435272.23 TND,salam,actif,03/10/22
+C1128,Nour Trabelsi,f,2006-12,00216 31 234 567,N/A,Tunis,  345171.30  ,WADIAH,Actif,2004/11/21
+C1110,NA,F,02/12/2013,00216 31 234 567,karim.zouari@banqueislamique.tn,Gafsa,436204.27 TND,istisna,true,12/09/12
+C1016,Karim Nasri,0,19900107,?,--,Bizerte,$119802.21,murabaha,Actif,"June 14, 2010"
+C1046,Bilel Ben Ali,H,  2011-10-06  ,10123456,bilel.ben.ali@banqueislamique.tn,Gabès,missing,MURABAHA,Suspendu,10/03/1990
+C1150,Leila Sfaxi,féminin,1997,93 456 789,leila.sfaxi@banqueislamique.tn,Ben Arous,243367.710000,istisna,inactif, 
+c1163,Mehdi Bouzid,homme,"June 12, 1993",+216 20 123 456,mehdi.bouzid@banqueislamique.tn,Gafsa,250733,mudaraba,bloque,  2005-03-18  
+C1140,Leila Sfaxi,m,1999-01,+216.20.123.456,leila.sfaxi@banqueislamique.tn,Gabès,  476800.90  ,istisna,actif,2006/04/11
+c1195,Omar Bouzid,F,19-01-2020,20 123 456,omar.bouzid@banqueislamique.tn,Sousse,TND 33709.96,mudaraba,,2013
+C1088,NULL,M,20190320,not available,nan,Bizerte,$330248.03,MUDARABA,Suspendu,"October 5, 1995"
+C1132,#NA,masculin,1985-02-16,93 456 789,karim.chaari@banqueislamique.tn,Sousse,270153.71,wadiah,cloture,29-10-1992
+C1174,Asma Maatoug,m,2015,80123456,asma.maatoug@banqueislamique.tn,Gafsa,384742.330000,Ijara,cloture,missing
+ C1074 ,Walid Jebali,FEMALE,04/03/2021,00216 31 234 567,walid.jebali@banqueislamique.tn,Gafsa,232490.40 TND,SALAM,Suspendu,17/10/17
+c1115,Ahmed Nasri,masculin,"November 26, 1997",2012345,ahmed.nasri@banqueislamique.tn,Sousse,37023,musharaka,suspendu,  2011-05-11  
+C1199,Rania Nasri,H,"July 3, 1990",+216 20 123 456,rania.nasri@banqueislamique.tn,Gafsa,86410,ijara,suspendu,  2004-12-19  
+C1164,Karim Trabelsi,Femme,2013-12,00216 31 234 567,karim.trabelsi@banqueislamique.tn,Kairouan,  353840.09  ,salam,inactif,2008/07/05
+1081,Karim Trabelsi,masculin,-,00000000,karim.trabelsi@banqueislamique.tn,NONE,95851.33,MUDARABA,1,2006-09-21
+C1032,Karim Maatoug,1,2002-10,+216.20.123.456,not available,Bizerte,  228666.56  ,IJARA,Suspendu,1988/04/03
+ C1018 ,Bilel Zouari,MALE,2012,20123456,bilel.zouari@banqueislamique.tn,MISSING,377657.070000,WADIAH,Suspendu,ND
+c1147,Ahmed Trabelsi,Femme,18-10-2008,216 40 123 456,ahmed.trabelsi@banqueislamique.tn,Ariana,TND 226877.53,MUDARABA,closed,2001
+C1104,Nour Sfaxi,male,2020-05,+216.20.123.456,?,Tunis,  141491.21  ,musharaka,cloture,2022/07/27
+C1196,Inès Khlifi,f,19860615,None,inès.khlifi@banqueislamique.tn,Gafsa,$474416.88,SALAM,actif,"November 30, 2004"
+1105,Asma Chaari,M,UNKNOWN,20 123 456,asma.chaari@banqueislamique.tn,Gabès,276003.52,ISTISNA,closed,2001-12-03
+C1134,Fatma Chaari,1,11/20/2003,201234567,fatma.chaari@banqueislamique.tn,Sfax,238175.36 TND,MUDARABA,BLOCKED,29/03/01
+ C1122 ,Rania Sfaxi,M,03/02/1990,+216.20.123.456,rania.sfaxi@banqueislamique.tn,Sousse,377100.33 TND,wadiah,inactif,04/05/15
+C1184,Mohamed Zouari,féminin,19880114,0 50 123 456,missing,Monastir,$277120.56,Ijara,Actif,"February 2, 2006"
+C1183,Omar Jebali,masculin,26-01-1985,216 40 123 456,omar.jebali@banqueislamique.tn,Kairouan,TND 285374.79,istisna,ACTIF,2014
+C01101,Amira Chaari,0,16/09/09,60123456,amira.chaari@banqueislamique.tn,Ariana,46695.28€,IJARA,suspendu,1990-02
+C1079,Amira Khlifi,Femme,"December 1, 1995",2012345,amira.khlifi@banqueislamique.tn,Ben Arous,184573,MUDARABA,bloque,  2008-10-25  
+C1016,Karim Nasri,0,19900107,?,--,Bizerte,$119802.21,murabaha,Actif,"June 14, 2010"
+C1022,#N/A,Female,  2010-11-06  ,0 50 123 456,hajer.chaari@banqueislamique.tn,Gafsa,nan,MUDARABA,BLOCKED,26/03/1989
+C1156,Nour Trabelsi,M,2004-07-18,80123456,nour.trabelsi@banqueislamique.tn,Monastir,39415.68,ijara,Actif,16-06-2018
+1033,NULL,0,MISSING,20 123 456,mehdi.bouzid@banqueislamique.tn,Monastir,132673.69,SALAM,clôturé,1988-02-02
+C1182,Mehdi Trabelsi,H,07/14/2022,00216 31 234 567,mehdi.trabelsi@banqueislamique.tn,Monastir,8316.03 TND,MURABAHA,actif,18/10/10
+C1174,Asma Maatoug,m,2015,80123456,asma.maatoug@banqueislamique.tn,Gafsa,384742.330000,Ijara,cloture,missing
+C1119,Youssef Bouzid,Male,2015/05/28,60123456,youssef.bouzid@banqueislamique.tn,Sousse,"314161.23,",IJARA,closed,12/29/2013
+C1094,Bilel Ben Ali,f,  1995-04-09  ,0 50 123 456,bilel.ben.ali@banqueislamique.tn,Ben Arous,,MURABAHA,inactif,22/04/2019
+ C1146 ,Rania Sfaxi,homme,04/11/1985,00216 31 234 567,rania.sfaxi@banqueislamique.tn,Ben Arous,328706.58 TND,Ijara,cloture,14/05/91
+C01141,Mohamed Trabelsi,Female,NULL,20 123 456,mohamed.trabelsi@banqueislamique.tn,Gabès,405903.47,MURABAHA,ACTIF,1987-09-10
+C1092,Rania Bouzid,female,2021-12,00216 31 234 567,rania.bouzid@banqueislamique.tn,Gafsa,  62264.39  ,MUDARABA,BLOCKED,1998/08/23
+C1006,Tarek Jebali,FEMALE,2013,93 456 789,tarek.jebali@banqueislamique.tn,Sousse,185153.470000,ISTISNA,cloture,N/A
+C1126,Nour Trabelsi,female,1987,20123456,nour.trabelsi@banqueislamique.tn,UNKNOWN,58148.630000,Murabaha,actif,None
+1057,Mehdi Bouzid,FEMALE,missing,216 40 123 456,mehdi.bouzid@banqueislamique.tn,Monastir,223012.21,WADIAH,ACTIF,2018-05-12
+C1060,Omar Chaari,f,2016-02-17,93 456 789,omar.chaari@banqueislamique.tn,Kairouan,32208.00,ijara,Suspendu,05-11-1999
+c1035,Ahmed Zouari,MALE,2014/10/04,ABCDEFGH,ahmed.zouari@banqueislamique.tn,Bizerte,"57802.79,",IJARA,closed,04/21/2018
+,,,,,,,,,,
+c1051,Nour Bouzid,Male,15-05-2014,20 123 456,nour.bouzid@banqueislamique.tn,Gafsa,TND 221135.68,SALAM,bloque,2007
